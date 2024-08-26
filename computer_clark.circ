@@ -71,7 +71,6 @@
     </comp>
     <comp lib="0" loc="(160,290)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="initial" val="0x1"/>
     </comp>
     <comp lib="0" loc="(200,600)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -796,7 +795,7 @@
     <comp lib="0" loc="(500,320)" name="Transistor">
       <a name="type" val="n"/>
     </comp>
-    <comp lib="0" loc="(530,320)" name="Pull Resistor">
+    <comp lib="0" loc="(530,290)" name="Pull Resistor">
       <a name="pull" val="1"/>
     </comp>
     <comp lib="0" loc="(580,230)" name="Pin">
@@ -817,8 +816,7 @@
     </comp>
     <wire from="(390,320)" to="(460,320)"/>
     <wire from="(480,230)" to="(480,300)"/>
-    <wire from="(500,320)" to="(530,320)"/>
-    <wire from="(530,320)" to="(560,320)"/>
+    <wire from="(500,320)" to="(560,320)"/>
     <wire from="(580,230)" to="(580,300)"/>
     <wire from="(600,320)" to="(630,320)"/>
     <wire from="(630,320)" to="(670,320)"/>
