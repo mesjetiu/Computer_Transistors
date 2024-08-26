@@ -170,12 +170,20 @@
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <appear>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="74" y="93">Reg 1B</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="73" y="98">Reg    1B</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="89" y="60">O</text>
       <rect fill="none" height="98" stroke="#000000" width="49" x="50" y="50"/>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="59" y="60">I</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="60" y="139">S</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="90" y="139">E</text>
+      <visible-led height="10" path="/LED(290,70)" stroke-width="0" width="10" x="70" y="55"/>
+      <visible-led height="10" path="/LED(320,70)" stroke-width="0" width="10" x="70" y="65"/>
+      <visible-led height="10" path="/LED(350,70)" stroke-width="0" width="10" x="70" y="75"/>
+      <visible-led height="10" path="/LED(380,70)" stroke-width="0" width="10" x="70" y="85"/>
+      <visible-led height="10" path="/LED(410,70)" stroke-width="0" width="10" x="70" y="95"/>
+      <visible-led height="10" path="/LED(440,70)" stroke-width="0" width="10" x="70" y="105"/>
+      <visible-led height="10" path="/LED(470,70)" stroke-width="0" width="10" x="70" y="115"/>
+      <visible-led height="10" path="/LED(500,70)" stroke-width="0" width="10" x="70" y="125"/>
       <circ-anchor facing="east" x="100" y="60"/>
       <circ-port dir="in" pin="170,110" x="50" y="60"/>
       <circ-port dir="in" pin="170,130" x="50" y="70"/>
@@ -186,15 +194,15 @@
       <circ-port dir="in" pin="170,230" x="50" y="120"/>
       <circ-port dir="in" pin="170,250" x="50" y="130"/>
       <circ-port dir="in" pin="230,290" x="60" y="150"/>
-      <circ-port dir="in" pin="280,290" x="90" y="150"/>
-      <circ-port dir="out" pin="380,110" x="100" y="60"/>
-      <circ-port dir="out" pin="380,130" x="100" y="70"/>
-      <circ-port dir="out" pin="380,150" x="100" y="80"/>
-      <circ-port dir="out" pin="380,170" x="100" y="90"/>
-      <circ-port dir="out" pin="380,190" x="100" y="100"/>
-      <circ-port dir="out" pin="380,210" x="100" y="110"/>
-      <circ-port dir="out" pin="380,230" x="100" y="120"/>
-      <circ-port dir="out" pin="380,250" x="100" y="130"/>
+      <circ-port dir="in" pin="570,290" x="90" y="150"/>
+      <circ-port dir="out" pin="670,110" x="100" y="60"/>
+      <circ-port dir="out" pin="670,130" x="100" y="70"/>
+      <circ-port dir="out" pin="670,150" x="100" y="80"/>
+      <circ-port dir="out" pin="670,170" x="100" y="90"/>
+      <circ-port dir="out" pin="670,190" x="100" y="100"/>
+      <circ-port dir="out" pin="670,210" x="100" y="110"/>
+      <circ-port dir="out" pin="670,230" x="100" y="120"/>
+      <circ-port dir="out" pin="670,250" x="100" y="130"/>
     </appear>
     <comp lib="0" loc="(170,110)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -224,52 +232,76 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(280,290)" name="Pin">
+    <comp lib="0" loc="(570,290)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(380,110)" name="Pin">
+    <comp lib="0" loc="(670,110)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(380,130)" name="Pin">
+    <comp lib="0" loc="(670,130)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(380,150)" name="Pin">
+    <comp lib="0" loc="(670,150)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(380,170)" name="Pin">
+    <comp lib="0" loc="(670,170)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(380,190)" name="Pin">
+    <comp lib="0" loc="(670,190)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(380,210)" name="Pin">
+    <comp lib="0" loc="(670,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(380,230)" name="Pin">
+    <comp lib="0" loc="(670,230)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(380,250)" name="Pin">
+    <comp lib="0" loc="(670,250)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+    </comp>
+    <comp lib="5" loc="(290,70)" name="LED">
+      <a name="color" val="#ddf017"/>
+    </comp>
+    <comp lib="5" loc="(320,70)" name="LED">
+      <a name="color" val="#ddf017"/>
+    </comp>
+    <comp lib="5" loc="(350,70)" name="LED">
+      <a name="color" val="#ddf017"/>
+    </comp>
+    <comp lib="5" loc="(380,70)" name="LED">
+      <a name="color" val="#ddf017"/>
+    </comp>
+    <comp lib="5" loc="(410,70)" name="LED">
+      <a name="color" val="#ddf017"/>
+    </comp>
+    <comp lib="5" loc="(440,70)" name="LED">
+      <a name="color" val="#ddf017"/>
+    </comp>
+    <comp lib="5" loc="(470,70)" name="LED">
+      <a name="color" val="#ddf017"/>
+    </comp>
+    <comp lib="5" loc="(500,70)" name="LED">
+      <a name="color" val="#ddf017"/>
     </comp>
     <comp loc="(270,140)" name="mem_byte"/>
-    <comp loc="(320,140)" name="enabler_nand"/>
+    <comp loc="(610,140)" name="enabler_nand"/>
     <wire from="(170,110)" to="(200,110)"/>
     <wire from="(170,130)" to="(190,130)"/>
     <wire from="(170,150)" to="(180,150)"/>
@@ -293,29 +325,53 @@
     <wire from="(210,210)" to="(210,250)"/>
     <wire from="(210,210)" to="(220,210)"/>
     <wire from="(230,230)" to="(230,290)"/>
-    <wire from="(280,230)" to="(280,290)"/>
-    <wire from="(320,140)" to="(340,140)"/>
-    <wire from="(320,150)" to="(350,150)"/>
-    <wire from="(320,160)" to="(360,160)"/>
-    <wire from="(320,170)" to="(380,170)"/>
-    <wire from="(320,180)" to="(360,180)"/>
-    <wire from="(320,190)" to="(350,190)"/>
-    <wire from="(320,200)" to="(340,200)"/>
-    <wire from="(320,210)" to="(330,210)"/>
-    <wire from="(330,210)" to="(330,250)"/>
-    <wire from="(330,250)" to="(380,250)"/>
-    <wire from="(340,110)" to="(340,140)"/>
-    <wire from="(340,110)" to="(380,110)"/>
-    <wire from="(340,200)" to="(340,230)"/>
-    <wire from="(340,230)" to="(380,230)"/>
-    <wire from="(350,130)" to="(350,150)"/>
-    <wire from="(350,130)" to="(380,130)"/>
-    <wire from="(350,190)" to="(350,210)"/>
-    <wire from="(350,210)" to="(380,210)"/>
-    <wire from="(360,150)" to="(360,160)"/>
-    <wire from="(360,150)" to="(380,150)"/>
-    <wire from="(360,180)" to="(360,190)"/>
-    <wire from="(360,190)" to="(380,190)"/>
+    <wire from="(270,140)" to="(290,140)"/>
+    <wire from="(270,150)" to="(320,150)"/>
+    <wire from="(270,160)" to="(350,160)"/>
+    <wire from="(270,170)" to="(380,170)"/>
+    <wire from="(270,180)" to="(410,180)"/>
+    <wire from="(270,190)" to="(440,190)"/>
+    <wire from="(270,200)" to="(470,200)"/>
+    <wire from="(270,210)" to="(500,210)"/>
+    <wire from="(290,140)" to="(560,140)"/>
+    <wire from="(290,70)" to="(290,140)"/>
+    <wire from="(320,150)" to="(560,150)"/>
+    <wire from="(320,70)" to="(320,150)"/>
+    <wire from="(350,160)" to="(560,160)"/>
+    <wire from="(350,70)" to="(350,160)"/>
+    <wire from="(380,170)" to="(560,170)"/>
+    <wire from="(380,70)" to="(380,170)"/>
+    <wire from="(410,180)" to="(560,180)"/>
+    <wire from="(410,70)" to="(410,180)"/>
+    <wire from="(440,190)" to="(560,190)"/>
+    <wire from="(440,70)" to="(440,190)"/>
+    <wire from="(470,200)" to="(560,200)"/>
+    <wire from="(470,70)" to="(470,200)"/>
+    <wire from="(500,210)" to="(560,210)"/>
+    <wire from="(500,70)" to="(500,210)"/>
+    <wire from="(570,230)" to="(570,290)"/>
+    <wire from="(610,140)" to="(630,140)"/>
+    <wire from="(610,150)" to="(640,150)"/>
+    <wire from="(610,160)" to="(650,160)"/>
+    <wire from="(610,170)" to="(670,170)"/>
+    <wire from="(610,180)" to="(650,180)"/>
+    <wire from="(610,190)" to="(640,190)"/>
+    <wire from="(610,200)" to="(630,200)"/>
+    <wire from="(610,210)" to="(620,210)"/>
+    <wire from="(620,210)" to="(620,250)"/>
+    <wire from="(620,250)" to="(670,250)"/>
+    <wire from="(630,110)" to="(630,140)"/>
+    <wire from="(630,110)" to="(670,110)"/>
+    <wire from="(630,200)" to="(630,230)"/>
+    <wire from="(630,230)" to="(670,230)"/>
+    <wire from="(640,130)" to="(640,150)"/>
+    <wire from="(640,130)" to="(670,130)"/>
+    <wire from="(640,190)" to="(640,210)"/>
+    <wire from="(640,210)" to="(670,210)"/>
+    <wire from="(650,150)" to="(650,160)"/>
+    <wire from="(650,150)" to="(670,150)"/>
+    <wire from="(650,180)" to="(650,190)"/>
+    <wire from="(650,190)" to="(670,190)"/>
   </circuit>
   <circuit name="enabler_nand">
     <a name="appearance" val="custom"/>
