@@ -24,9 +24,9 @@
   <lib desc="#Soc" name="11"/>
   <main name="main"/>
   <options>
-    <a name="gateUndefined" val="ignore"/>
+    <a name="gateUndefined" val="error"/>
     <a name="simlimit" val="50000"/>
-    <a name="simrand" val="0"/>
+    <a name="simrand" val="32"/>
   </options>
   <mappings>
     <tool lib="8" map="Button2" name="Poke Tool"/>
@@ -64,51 +64,53 @@
   <circuit name="mem_bit">
     <a name="appearance" val="custom"/>
     <a name="circuit" val="mem_bit"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="16.0"/>
     <appear>
       <rect fill="none" height="30" stroke="#000000" stroke-width="2" width="30" x="50" y="50"/>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="67" y="60">M1b</text>
       <circ-anchor facing="east" x="80" y="60"/>
-      <circ-port dir="in" pin="270,360" x="50" y="80"/>
-      <circ-port dir="in" pin="270,580" x="50" y="70"/>
-      <circ-port dir="out" pin="840,400" x="80" y="60"/>
+      <circ-port dir="in" pin="490,340" x="50" y="60"/>
+      <circ-port dir="in" pin="490,560" x="50" y="70"/>
+      <circ-port dir="out" pin="1080,380" x="80" y="60"/>
     </appear>
-    <comp lib="0" loc="(270,360)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-    </comp>
-    <comp lib="0" loc="(270,580)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-    </comp>
-    <comp lib="0" loc="(840,400)" name="Pin">
+    <comp lib="0" loc="(1080,380)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp loc="(410,380)" name="nand_transistores"/>
-    <comp loc="(540,560)" name="nand_transistores"/>
-    <comp loc="(740,540)" name="nand_transistores_2"/>
-    <comp loc="(750,400)" name="nand_transistores_2"/>
-    <wire from="(270,360)" to="(350,360)"/>
-    <wire from="(270,580)" to="(310,580)"/>
-    <wire from="(310,400)" to="(310,580)"/>
-    <wire from="(310,400)" to="(350,400)"/>
-    <wire from="(310,580)" to="(480,580)"/>
-    <wire from="(410,380)" to="(410,540)"/>
-    <wire from="(410,380)" to="(690,380)"/>
-    <wire from="(410,540)" to="(480,540)"/>
-    <wire from="(540,560)" to="(680,560)"/>
-    <wire from="(660,420)" to="(660,480)"/>
-    <wire from="(660,420)" to="(690,420)"/>
-    <wire from="(660,480)" to="(790,480)"/>
-    <wire from="(670,450)" to="(670,520)"/>
-    <wire from="(670,450)" to="(790,450)"/>
-    <wire from="(670,520)" to="(680,520)"/>
-    <wire from="(730,540)" to="(740,540)"/>
-    <wire from="(740,540)" to="(790,540)"/>
-    <wire from="(750,400)" to="(790,400)"/>
-    <wire from="(790,400)" to="(790,450)"/>
-    <wire from="(790,400)" to="(840,400)"/>
-    <wire from="(790,480)" to="(790,540)"/>
+    <comp lib="0" loc="(490,340)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(490,560)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="initial" val="0x1"/>
+      <a name="pull" val="up"/>
+    </comp>
+    <comp loc="(650,360)" name="nand_transistores_4"/>
+    <comp loc="(780,540)" name="nand_transistores_4"/>
+    <comp loc="(980,520)" name="nand_transistores_4"/>
+    <comp loc="(990,380)" name="nand_transistores_4"/>
+    <wire from="(1030,380)" to="(1030,430)"/>
+    <wire from="(1030,380)" to="(1080,380)"/>
+    <wire from="(1030,460)" to="(1030,520)"/>
+    <wire from="(490,340)" to="(590,340)"/>
+    <wire from="(490,560)" to="(550,560)"/>
+    <wire from="(550,380)" to="(550,560)"/>
+    <wire from="(550,380)" to="(590,380)"/>
+    <wire from="(550,560)" to="(720,560)"/>
+    <wire from="(650,360)" to="(650,520)"/>
+    <wire from="(650,360)" to="(930,360)"/>
+    <wire from="(650,520)" to="(720,520)"/>
+    <wire from="(780,540)" to="(920,540)"/>
+    <wire from="(900,400)" to="(900,460)"/>
+    <wire from="(900,400)" to="(930,400)"/>
+    <wire from="(900,460)" to="(1030,460)"/>
+    <wire from="(910,430)" to="(1030,430)"/>
+    <wire from="(910,430)" to="(910,500)"/>
+    <wire from="(910,500)" to="(920,500)"/>
+    <wire from="(980,520)" to="(1030,520)"/>
+    <wire from="(990,380)" to="(1030,380)"/>
   </circuit>
   <circuit name="mem_byte">
     <a name="appearance" val="custom"/>
@@ -122,6 +124,7 @@
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="89" y="60">O</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="59" y="140">S</text>
       <circ-anchor facing="east" x="100" y="60"/>
+      <circ-port dir="in" pin="270,350" x="60" y="150"/>
       <circ-port dir="in" pin="340,120" x="50" y="70"/>
       <circ-port dir="in" pin="340,150" x="50" y="80"/>
       <circ-port dir="in" pin="340,180" x="50" y="90"/>
@@ -130,7 +133,6 @@
       <circ-port dir="in" pin="340,270" x="50" y="120"/>
       <circ-port dir="in" pin="340,300" x="50" y="130"/>
       <circ-port dir="in" pin="340,90" x="50" y="60"/>
-      <circ-port dir="in" pin="360,340" x="60" y="150"/>
       <circ-port dir="out" pin="450,120" x="100" y="70"/>
       <circ-port dir="out" pin="450,150" x="100" y="80"/>
       <circ-port dir="out" pin="450,180" x="100" y="90"/>
@@ -140,6 +142,11 @@
       <circ-port dir="out" pin="450,300" x="100" y="130"/>
       <circ-port dir="out" pin="450,90" x="100" y="60"/>
     </appear>
+    <comp lib="0" loc="(270,350)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="north"/>
+      <a name="initial" val="0x1"/>
+    </comp>
     <comp lib="0" loc="(340,120)" name="Pin">
       <a name="appearance" val="NewPins"/>
     </comp>
@@ -163,10 +170,6 @@
     </comp>
     <comp lib="0" loc="(340,90)" name="Pin">
       <a name="appearance" val="NewPins"/>
-    </comp>
-    <comp lib="0" loc="(360,340)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(450,120)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -212,7 +215,7 @@
       <a name="text" val="input"/>
       <a name="valign" val="top"/>
     </comp>
-    <comp lib="8" loc="(360,400)" name="Text">
+    <comp lib="8" loc="(270,415)" name="Text">
       <a name="text" val="set"/>
     </comp>
     <comp lib="8" loc="(560,190)" name="Text">
@@ -227,6 +230,22 @@
     <comp loc="(410,270)" name="mem_bit"/>
     <comp loc="(410,300)" name="mem_bit"/>
     <comp loc="(410,90)" name="mem_bit"/>
+    <wire from="(270,100)" to="(270,130)"/>
+    <wire from="(270,100)" to="(380,100)"/>
+    <wire from="(270,130)" to="(270,160)"/>
+    <wire from="(270,130)" to="(380,130)"/>
+    <wire from="(270,160)" to="(270,190)"/>
+    <wire from="(270,160)" to="(380,160)"/>
+    <wire from="(270,190)" to="(270,220)"/>
+    <wire from="(270,190)" to="(380,190)"/>
+    <wire from="(270,220)" to="(270,250)"/>
+    <wire from="(270,220)" to="(380,220)"/>
+    <wire from="(270,250)" to="(270,280)"/>
+    <wire from="(270,250)" to="(380,250)"/>
+    <wire from="(270,280)" to="(270,310)"/>
+    <wire from="(270,280)" to="(380,280)"/>
+    <wire from="(270,310)" to="(270,350)"/>
+    <wire from="(270,310)" to="(380,310)"/>
     <wire from="(340,120)" to="(380,120)"/>
     <wire from="(340,150)" to="(380,150)"/>
     <wire from="(340,180)" to="(380,180)"/>
@@ -235,22 +254,6 @@
     <wire from="(340,270)" to="(380,270)"/>
     <wire from="(340,300)" to="(380,300)"/>
     <wire from="(340,90)" to="(380,90)"/>
-    <wire from="(360,100)" to="(360,130)"/>
-    <wire from="(360,100)" to="(380,100)"/>
-    <wire from="(360,130)" to="(360,160)"/>
-    <wire from="(360,130)" to="(380,130)"/>
-    <wire from="(360,160)" to="(360,190)"/>
-    <wire from="(360,160)" to="(380,160)"/>
-    <wire from="(360,190)" to="(360,220)"/>
-    <wire from="(360,190)" to="(380,190)"/>
-    <wire from="(360,220)" to="(360,250)"/>
-    <wire from="(360,220)" to="(380,220)"/>
-    <wire from="(360,250)" to="(360,280)"/>
-    <wire from="(360,250)" to="(380,250)"/>
-    <wire from="(360,280)" to="(360,310)"/>
-    <wire from="(360,280)" to="(380,280)"/>
-    <wire from="(360,310)" to="(360,340)"/>
-    <wire from="(360,310)" to="(380,310)"/>
     <wire from="(410,120)" to="(450,120)"/>
     <wire from="(410,150)" to="(450,150)"/>
     <wire from="(410,180)" to="(450,180)"/>
@@ -266,25 +269,15 @@
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(200,370)" name="Pin">
-      <a name="appearance" val="classic"/>
+      <a name="appearance" val="NewPins"/>
     </comp>
     <comp lib="0" loc="(200,400)" name="Pin">
-      <a name="appearance" val="classic"/>
-    </comp>
-    <comp lib="0" loc="(450,650)" name="Pin">
       <a name="appearance" val="NewPins"/>
-    </comp>
-    <comp lib="0" loc="(450,690)" name="Pin">
-      <a name="appearance" val="NewPins"/>
+      <a name="initial" val="0x1"/>
     </comp>
     <comp lib="0" loc="(590,510)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(590,670)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
     </comp>
     <comp lib="5" loc="(320,370)" name="LED">
       <a name="color" val="#ddf017"/>
@@ -296,22 +289,15 @@
     <comp lib="8" loc="(265,325)" name="Text">
       <a name="text" val="Memoria de 1 bit"/>
     </comp>
-    <comp lib="8" loc="(510,600)" name="Text">
-      <a name="text" val="Puerta NAND con transistores"/>
-    </comp>
     <comp lib="8" loc="(615,290)" name="Text">
       <a name="text" val="Memoria de 1 byte"/>
     </comp>
     <comp loc="(300,370)" name="mem_bit"/>
-    <comp loc="(550,670)" name="nand_transistores"/>
-    <comp loc="(630,360)" name="mem_byte"/>
     <wire from="(200,370)" to="(270,370)"/>
     <wire from="(200,400)" to="(260,400)"/>
     <wire from="(260,380)" to="(260,400)"/>
     <wire from="(260,380)" to="(270,380)"/>
     <wire from="(300,370)" to="(320,370)"/>
-    <wire from="(450,650)" to="(490,650)"/>
-    <wire from="(450,690)" to="(490,690)"/>
     <wire from="(540,360)" to="(580,360)"/>
     <wire from="(540,370)" to="(580,370)"/>
     <wire from="(540,380)" to="(580,380)"/>
@@ -320,7 +306,6 @@
     <wire from="(540,410)" to="(580,410)"/>
     <wire from="(540,420)" to="(580,420)"/>
     <wire from="(540,430)" to="(580,430)"/>
-    <wire from="(550,670)" to="(590,670)"/>
     <wire from="(590,450)" to="(590,510)"/>
     <wire from="(630,360)" to="(700,360)"/>
     <wire from="(630,370)" to="(710,370)"/>
@@ -338,65 +323,6 @@
     <wire from="(750,350)" to="(750,410)"/>
     <wire from="(760,350)" to="(760,420)"/>
     <wire from="(770,350)" to="(770,430)"/>
-  </circuit>
-  <circuit name="nand_transistores">
-    <a name="appearance" val="custom"/>
-    <a name="circuit" val="nand_transistores"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
-    <appear>
-      <polyline fill="none" points="120,84 159,84" stroke="#000000" stroke-width="2"/>
-      <polyline fill="none" points="120,135 120,84" stroke="#000000" stroke-width="2"/>
-      <polyline fill="none" points="160,136 120,136" stroke="#000000" stroke-width="2"/>
-      <path d="M160,84 Q181,110 161,136" fill="none" stroke="#000000" stroke-width="2"/>
-      <ellipse cx="173" cy="110" fill="none" rx="2" ry="2" stroke="#000000" stroke-width="2"/>
-      <circ-anchor facing="east" x="180" y="110"/>
-      <circ-port dir="in" pin="420,340" x="120" y="90"/>
-      <circ-port dir="in" pin="470,340" x="120" y="130"/>
-      <circ-port dir="out" pin="560,440" x="180" y="110"/>
-    </appear>
-    <comp lib="0" loc="(350,400)" name="Power"/>
-    <comp lib="0" loc="(420,340)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-    </comp>
-    <comp lib="0" loc="(420,500)" name="Transistor">
-      <a name="type" val="n"/>
-    </comp>
-    <comp lib="0" loc="(440,400)" name="Transistor"/>
-    <comp lib="0" loc="(470,340)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-    </comp>
-    <comp lib="0" loc="(480,610)" name="Ground"/>
-    <comp lib="0" loc="(490,440)" name="Transistor"/>
-    <comp lib="0" loc="(520,550)" name="Transistor">
-      <a name="type" val="n"/>
-    </comp>
-    <comp lib="0" loc="(560,440)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-    </comp>
-    <wire from="(330,370)" to="(330,480)"/>
-    <wire from="(330,370)" to="(420,370)"/>
-    <wire from="(330,480)" to="(400,480)"/>
-    <wire from="(350,400)" to="(350,440)"/>
-    <wire from="(350,400)" to="(400,400)"/>
-    <wire from="(350,440)" to="(450,440)"/>
-    <wire from="(380,500)" to="(380,560)"/>
-    <wire from="(380,560)" to="(520,560)"/>
-    <wire from="(420,340)" to="(420,370)"/>
-    <wire from="(420,370)" to="(420,380)"/>
-    <wire from="(420,500)" to="(530,500)"/>
-    <wire from="(440,400)" to="(530,400)"/>
-    <wire from="(470,340)" to="(470,420)"/>
-    <wire from="(470,340)" to="(500,340)"/>
-    <wire from="(480,550)" to="(480,610)"/>
-    <wire from="(490,440)" to="(530,440)"/>
-    <wire from="(500,340)" to="(500,530)"/>
-    <wire from="(520,550)" to="(520,560)"/>
-    <wire from="(530,400)" to="(530,440)"/>
-    <wire from="(530,440)" to="(530,500)"/>
-    <wire from="(530,440)" to="(560,440)"/>
   </circuit>
   <circuit name="nand_transistores_2">
     <a name="appearance" val="custom"/>
@@ -425,13 +351,17 @@
       <a name="pull" val="up"/>
     </comp>
     <comp lib="0" loc="(490,440)" name="Transistor"/>
-    <comp lib="0" loc="(570,440)" name="Pull Resistor"/>
+    <comp lib="0" loc="(500,400)" name="Pull Resistor">
+      <a name="pull" val="1"/>
+    </comp>
+    <comp lib="0" loc="(510,440)" name="Pull Resistor">
+      <a name="pull" val="1"/>
+    </comp>
     <comp lib="0" loc="(580,440)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="pull" val="down"/>
-      <a name="tristate" val="true"/>
+      <a name="pull" val="up"/>
     </comp>
     <wire from="(320,420)" to="(350,420)"/>
     <wire from="(350,400)" to="(350,420)"/>
@@ -440,63 +370,156 @@
     <wire from="(350,440)" to="(450,440)"/>
     <wire from="(410,260)" to="(420,260)"/>
     <wire from="(420,260)" to="(420,380)"/>
-    <wire from="(440,400)" to="(530,400)"/>
+    <wire from="(440,400)" to="(500,400)"/>
     <wire from="(470,260)" to="(470,420)"/>
-    <wire from="(490,440)" to="(530,440)"/>
+    <wire from="(490,440)" to="(510,440)"/>
+    <wire from="(500,400)" to="(530,400)"/>
+    <wire from="(510,440)" to="(530,440)"/>
     <wire from="(530,400)" to="(530,440)"/>
-    <wire from="(530,440)" to="(570,440)"/>
-    <wire from="(570,440)" to="(580,440)"/>
+    <wire from="(530,440)" to="(580,440)"/>
   </circuit>
-  <circuit name="buffer_trans">
+  <circuit name="prueba_mem_bit">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="buffer_trans"/>
+    <a name="circuit" val="prueba_mem_bit"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="16.0"/>
+    <comp lib="0" loc="(190,370)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(190,400)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="initial" val="0x1"/>
+    </comp>
+    <comp lib="5" loc="(320,370)" name="LED">
+      <a name="color" val="#ddf017"/>
+    </comp>
+    <comp lib="8" loc="(265,325)" name="Text">
+      <a name="text" val="Memoria de 1 bit"/>
+    </comp>
+    <comp loc="(300,370)" name="mem_bit"/>
+    <wire from="(190,370)" to="(270,370)"/>
+    <wire from="(190,400)" to="(260,400)"/>
+    <wire from="(260,380)" to="(260,400)"/>
+    <wire from="(260,380)" to="(270,380)"/>
+    <wire from="(300,370)" to="(320,370)"/>
+  </circuit>
+  <circuit name="nand_transistores_3">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="nand_transistores_3"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <appear>
-      <polyline fill="none" points="110,94 110,106" stroke="#000000"/>
-      <polyline fill="none" points="110,94 130,100" stroke="#000000"/>
-      <polyline fill="none" points="110,106 131,100" stroke="#000000"/>
-      <circ-anchor facing="east" x="130" y="100"/>
-      <circ-port dir="in" pin="460,400" x="110" y="100"/>
-      <circ-port dir="out" pin="660,430" x="130" y="100"/>
+      <polyline fill="none" points="120,135 120,84" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,84 159,84" stroke="#000000" stroke-width="2"/>
+      <path d="M160,84 Q181,110 161,136" fill="none" stroke="#000000" stroke-width="2"/>
+      <ellipse cx="173" cy="110" fill="none" rx="2" ry="2" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="160,136 120,136" stroke="#000000" stroke-width="2"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="145" y="108">v3</text>
+      <circ-anchor facing="east" x="180" y="110"/>
+      <circ-port dir="in" pin="300,440" x="120" y="90"/>
+      <circ-port dir="in" pin="300,530" x="120" y="130"/>
+      <circ-port dir="out" pin="600,360" x="180" y="110"/>
     </appear>
-    <comp lib="0" loc="(460,400)" name="Pin">
+    <comp lib="0" loc="(300,440)" name="Pin">
       <a name="appearance" val="NewPins"/>
     </comp>
-    <comp lib="0" loc="(500,340)" name="Power"/>
-    <comp lib="0" loc="(500,520)" name="Ground"/>
-    <comp lib="0" loc="(540,430)" name="Transistor"/>
-    <comp lib="0" loc="(540,470)" name="Transistor">
+    <comp lib="0" loc="(300,530)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(380,360)" name="Transistor">
+      <a name="facing" val="south"/>
+      <a name="selloc" val="bl"/>
+    </comp>
+    <comp lib="0" loc="(490,250)" name="Power"/>
+    <comp lib="0" loc="(490,360)" name="Transistor">
+      <a name="facing" val="south"/>
+      <a name="selloc" val="bl"/>
+    </comp>
+    <comp lib="0" loc="(490,420)" name="Transistor">
+      <a name="facing" val="north"/>
+      <a name="selloc" val="bl"/>
       <a name="type" val="n"/>
     </comp>
-    <comp lib="0" loc="(610,430)" name="Transistor"/>
-    <comp lib="0" loc="(610,470)" name="Transistor">
+    <comp lib="0" loc="(490,510)" name="Transistor">
+      <a name="facing" val="north"/>
+      <a name="selloc" val="bl"/>
       <a name="type" val="n"/>
     </comp>
-    <comp lib="0" loc="(660,430)" name="Pin">
+    <comp lib="0" loc="(490,620)" name="Ground"/>
+    <comp lib="0" loc="(600,360)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <wire from="(460,400)" to="(460,450)"/>
-    <wire from="(460,400)" to="(520,400)"/>
-    <wire from="(460,450)" to="(520,450)"/>
-    <wire from="(500,340)" to="(500,430)"/>
-    <wire from="(500,340)" to="(570,340)"/>
-    <wire from="(500,470)" to="(500,520)"/>
-    <wire from="(500,520)" to="(570,520)"/>
-    <wire from="(520,400)" to="(520,410)"/>
-    <wire from="(540,400)" to="(540,430)"/>
-    <wire from="(540,400)" to="(590,400)"/>
-    <wire from="(540,430)" to="(540,450)"/>
-    <wire from="(540,450)" to="(540,470)"/>
-    <wire from="(540,450)" to="(590,450)"/>
-    <wire from="(570,340)" to="(570,430)"/>
-    <wire from="(570,470)" to="(570,520)"/>
-    <wire from="(590,400)" to="(590,410)"/>
-    <wire from="(610,430)" to="(620,430)"/>
-    <wire from="(610,470)" to="(620,470)"/>
-    <wire from="(620,430)" to="(620,470)"/>
-    <wire from="(620,430)" to="(660,430)"/>
+    <comp lib="1" loc="(550,360)" name="Buffer"/>
+    <wire from="(300,440)" to="(330,440)"/>
+    <wire from="(300,530)" to="(430,530)"/>
+    <wire from="(330,340)" to="(330,440)"/>
+    <wire from="(330,340)" to="(360,340)"/>
+    <wire from="(330,440)" to="(470,440)"/>
+    <wire from="(380,320)" to="(490,320)"/>
+    <wire from="(380,360)" to="(490,360)"/>
+    <wire from="(430,340)" to="(430,530)"/>
+    <wire from="(430,340)" to="(470,340)"/>
+    <wire from="(430,530)" to="(470,530)"/>
+    <wire from="(490,250)" to="(490,320)"/>
+    <wire from="(490,360)" to="(490,420)"/>
+    <wire from="(490,360)" to="(530,360)"/>
+    <wire from="(490,460)" to="(490,510)"/>
+    <wire from="(490,550)" to="(490,620)"/>
+    <wire from="(550,360)" to="(600,360)"/>
+  </circuit>
+  <circuit name="nand_transistores_4">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="nand_transistores_4"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="16.0"/>
+    <appear>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="145" y="108">v4</text>
+      <ellipse cx="173" cy="110" fill="none" rx="2" ry="2" stroke="#000000" stroke-width="2"/>
+      <path d="M160,84 Q181,110 161,136" fill="none" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="160,136 120,136" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,84 159,84" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,135 120,84" stroke="#000000" stroke-width="2"/>
+      <circ-anchor facing="east" x="180" y="110"/>
+      <circ-port dir="in" pin="480,230" x="120" y="90"/>
+      <circ-port dir="in" pin="580,230" x="120" y="130"/>
+      <circ-port dir="out" pin="670,320" x="180" y="110"/>
+    </appear>
+    <comp lib="0" loc="(390,320)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(480,230)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(500,320)" name="Transistor">
+      <a name="type" val="n"/>
+    </comp>
+    <comp lib="0" loc="(530,320)" name="Pull Resistor">
+      <a name="pull" val="1"/>
+    </comp>
+    <comp lib="0" loc="(580,230)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="initial" val="0x1"/>
+    </comp>
+    <comp lib="0" loc="(600,320)" name="Transistor">
+      <a name="type" val="n"/>
+    </comp>
+    <comp lib="0" loc="(630,320)" name="Pull Resistor">
+      <a name="pull" val="1"/>
+    </comp>
+    <comp lib="0" loc="(670,320)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="true"/>
+    </comp>
+    <wire from="(390,320)" to="(460,320)"/>
+    <wire from="(480,230)" to="(480,300)"/>
+    <wire from="(500,320)" to="(530,320)"/>
+    <wire from="(530,320)" to="(560,320)"/>
+    <wire from="(580,230)" to="(580,300)"/>
+    <wire from="(600,320)" to="(630,320)"/>
+    <wire from="(630,320)" to="(670,320)"/>
   </circuit>
 </project>
