@@ -1192,14 +1192,15 @@
       <a name="output" val="true"/>
     </comp>
     <comp lib="1" loc="(310,340)" name="NOT Gate"/>
-    <comp lib="1" loc="(390,160)" name="NAND Gate"/>
-    <comp lib="1" loc="(500,160)" name="NOR Gate"/>
     <comp lib="8" loc="(196,309)" name="Text">
       <a name="text" val="enabler"/>
     </comp>
     <comp lib="8" loc="(214,103)" name="Text">
       <a name="text" val="data"/>
     </comp>
+    <comp loc="(390,160)" name="nand_transistors"/>
+    <comp loc="(500,160)" name="or_nand"/>
+    <comp loc="(540,160)" name="not_nand"/>
     <wire from="(250,140)" to="(270,140)"/>
     <wire from="(250,180)" to="(250,340)"/>
     <wire from="(250,180)" to="(330,180)"/>
@@ -1218,7 +1219,7 @@
     <wire from="(490,260)" to="(490,340)"/>
     <wire from="(490,260)" to="(520,260)"/>
     <wire from="(490,340)" to="(660,340)"/>
-    <wire from="(500,160)" to="(540,160)"/>
+    <wire from="(500,160)" to="(510,160)"/>
     <wire from="(540,160)" to="(540,240)"/>
     <wire from="(560,260)" to="(630,260)"/>
   </circuit>
