@@ -71,6 +71,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
     </comp>
+    <comp lib="0" loc="(430,200)" name="Pull Resistor"/>
     <comp lib="0" loc="(490,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
     </comp>
@@ -98,7 +99,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="8" loc="(452,123)" name="Text">
+    <comp lib="8" loc="(450,120)" name="Text">
       <a name="text" val="Prueba de concepto de grabación de bytes de un registro a otro"/>
     </comp>
     <comp loc="(380,260)" name="register_nand_conbus"/>
@@ -109,8 +110,9 @@
     <wire from="(340,200)" to="(370,200)"/>
     <wire from="(340,300)" to="(340,320)"/>
     <wire from="(370,200)" to="(370,250)"/>
-    <wire from="(370,200)" to="(490,200)"/>
+    <wire from="(370,200)" to="(430,200)"/>
     <wire from="(370,300)" to="(370,320)"/>
+    <wire from="(430,200)" to="(490,200)"/>
     <wire from="(490,200)" to="(490,250)"/>
     <wire from="(490,200)" to="(520,200)"/>
     <wire from="(490,300)" to="(490,320)"/>
@@ -1195,10 +1197,10 @@
       <a name="output" val="true"/>
     </comp>
     <comp lib="1" loc="(310,340)" name="NOT Gate"/>
-    <comp lib="8" loc="(196,309)" name="Text">
+    <comp lib="8" loc="(195,305)" name="Text">
       <a name="text" val="enabler"/>
     </comp>
-    <comp lib="8" loc="(214,103)" name="Text">
+    <comp lib="8" loc="(210,100)" name="Text">
       <a name="text" val="data"/>
     </comp>
     <comp loc="(390,160)" name="nand_transistors"/>
