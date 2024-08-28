@@ -98,6 +98,9 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
     </comp>
+    <comp lib="8" loc="(452,123)" name="Text">
+      <a name="text" val="Prueba de concepto de grabación de bytes de un registro a otro"/>
+    </comp>
     <comp loc="(380,260)" name="register_nand_conbus"/>
     <comp loc="(530,260)" name="register_nand_conbus"/>
     <comp loc="(680,260)" name="register_nand_conbus"/>
