@@ -26,7 +26,7 @@
   <options>
     <a name="gateUndefined" val="error"/>
     <a name="simlimit" val="50000"/>
-    <a name="simrand" val="32"/>
+    <a name="simrand" val="0"/>
   </options>
   <mappings>
     <tool lib="8" map="Button2" name="Poke Tool"/>
@@ -65,28 +65,28 @@
       <a name="radix" val="16"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(340,320)" name="Pin">
+    <comp lib="0" loc="(340,540)" name="Pin">
       <a name="appearance" val="NewPins"/>
     </comp>
-    <comp lib="0" loc="(370,320)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(490,320)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-    </comp>
-    <comp lib="0" loc="(520,320)" name="Pin">
+    <comp lib="0" loc="(370,540)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="0" loc="(640,320)" name="Pin">
+    <comp lib="0" loc="(490,540)" name="Pin">
       <a name="appearance" val="NewPins"/>
     </comp>
-    <comp lib="0" loc="(670,320)" name="Pin">
+    <comp lib="0" loc="(520,540)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="0" loc="(790,320)" name="Pin">
+    <comp lib="0" loc="(640,540)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(670,540)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(790,540)" name="Pin">
       <a name="appearance" val="NewPins"/>
     </comp>
     <comp lib="0" loc="(820,130)" name="Pin">
@@ -96,11 +96,35 @@
       <a name="radix" val="16"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(820,320)" name="Pin">
+    <comp lib="0" loc="(820,540)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
     </comp>
     <comp lib="0" loc="(920,200)" name="Pull Resistor"/>
+    <comp lib="5" loc="(340,320)" name="Button">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(370,320)" name="Button">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(490,320)" name="Button">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(520,320)" name="Button">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(640,320)" name="Button">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(670,320)" name="Button">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(790,320)" name="Button">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(820,320)" name="Button">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="8" loc="(450,120)" name="Text">
       <a name="text" val="Prueba de concepto de grabación de bytes de un registro a otro"/>
     </comp>
@@ -111,28 +135,36 @@
     <wire from="(340,200)" to="(340,250)"/>
     <wire from="(340,200)" to="(370,200)"/>
     <wire from="(340,300)" to="(340,320)"/>
+    <wire from="(340,520)" to="(340,540)"/>
     <wire from="(370,200)" to="(370,250)"/>
     <wire from="(370,200)" to="(490,200)"/>
     <wire from="(370,300)" to="(370,320)"/>
+    <wire from="(370,520)" to="(370,540)"/>
     <wire from="(490,200)" to="(490,250)"/>
     <wire from="(490,200)" to="(520,200)"/>
     <wire from="(490,300)" to="(490,320)"/>
+    <wire from="(490,520)" to="(490,540)"/>
     <wire from="(520,200)" to="(520,250)"/>
     <wire from="(520,200)" to="(640,200)"/>
     <wire from="(520,300)" to="(520,320)"/>
+    <wire from="(520,520)" to="(520,540)"/>
     <wire from="(640,200)" to="(640,250)"/>
     <wire from="(640,200)" to="(670,200)"/>
     <wire from="(640,300)" to="(640,320)"/>
+    <wire from="(640,520)" to="(640,540)"/>
     <wire from="(670,200)" to="(670,250)"/>
     <wire from="(670,200)" to="(790,200)"/>
     <wire from="(670,300)" to="(670,320)"/>
+    <wire from="(670,520)" to="(670,540)"/>
     <wire from="(790,200)" to="(790,250)"/>
     <wire from="(790,200)" to="(820,200)"/>
     <wire from="(790,300)" to="(790,320)"/>
+    <wire from="(790,520)" to="(790,540)"/>
     <wire from="(820,130)" to="(820,200)"/>
     <wire from="(820,200)" to="(820,250)"/>
     <wire from="(820,200)" to="(920,200)"/>
     <wire from="(820,300)" to="(820,320)"/>
+    <wire from="(820,520)" to="(820,540)"/>
   </circuit>
   <circuit name="pruebas_dispositivos">
     <a name="appearance" val="logisim_evolution"/>
