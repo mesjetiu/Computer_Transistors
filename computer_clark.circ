@@ -255,23 +255,25 @@
       <visible-hexdigit height="20" path="/Hex Digit Display(620,300)" stroke-width="0" width="14" x="156" y="78"/>
       <visible-hexdigit height="20" path="/Hex Digit Display(670,300)" stroke-width="0" width="14" x="140" y="78"/>
       <circ-anchor facing="east" x="180" y="70"/>
-      <circ-port dir="in" pin="340,410" x="140" y="110"/>
-      <circ-port dir="in" pin="350,190" x="140" y="60"/>
+      <circ-port dir="in" pin="290,200" x="140" y="60"/>
+      <circ-port dir="in" pin="310,410" x="140" y="110"/>
       <circ-port dir="in" pin="420,410" x="170" y="110"/>
-      <circ-port dir="out" pin="440,190" x="170" y="60"/>
+      <circ-port dir="out" pin="460,200" x="170" y="60"/>
     </appear>
-    <comp lib="0" loc="(290,340)" name="Splitter">
+    <comp lib="0" loc="(260,340)" name="Splitter">
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="0" loc="(340,410)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(350,190)" name="Pin">
+    <comp lib="0" loc="(290,200)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="south"/>
+      <a name="label" val="input_data"/>
       <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(310,410)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="set"/>
     </comp>
     <comp lib="0" loc="(400,340)" name="Splitter">
       <a name="appear" val="right"/>
@@ -282,10 +284,12 @@
     <comp lib="0" loc="(420,410)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="north"/>
+      <a name="label" val="enable"/>
     </comp>
-    <comp lib="0" loc="(440,190)" name="Pin">
+    <comp lib="0" loc="(460,200)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="south"/>
+      <a name="label" val="output_data"/>
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
@@ -315,21 +319,29 @@
       <a name="color" val="#e7f028"/>
       <a name="offcolor" val="#525252"/>
     </comp>
-    <comp loc="(380,260)" name="mem_byte"/>
+    <comp loc="(350,260)" name="mem_byte"/>
     <comp loc="(460,260)" name="enabler_8bits"/>
-    <wire from="(270,230)" to="(270,340)"/>
-    <wire from="(270,230)" to="(350,230)"/>
-    <wire from="(270,340)" to="(290,340)"/>
-    <wire from="(310,260)" to="(330,260)"/>
-    <wire from="(310,270)" to="(330,270)"/>
-    <wire from="(310,280)" to="(330,280)"/>
-    <wire from="(310,290)" to="(330,290)"/>
-    <wire from="(310,300)" to="(330,300)"/>
-    <wire from="(310,310)" to="(330,310)"/>
-    <wire from="(310,320)" to="(330,320)"/>
-    <wire from="(310,330)" to="(330,330)"/>
-    <wire from="(340,350)" to="(340,410)"/>
-    <wire from="(350,190)" to="(350,230)"/>
+    <wire from="(240,230)" to="(240,340)"/>
+    <wire from="(240,230)" to="(290,230)"/>
+    <wire from="(240,340)" to="(260,340)"/>
+    <wire from="(280,260)" to="(300,260)"/>
+    <wire from="(280,270)" to="(300,270)"/>
+    <wire from="(280,280)" to="(300,280)"/>
+    <wire from="(280,290)" to="(300,290)"/>
+    <wire from="(280,300)" to="(300,300)"/>
+    <wire from="(280,310)" to="(300,310)"/>
+    <wire from="(280,320)" to="(300,320)"/>
+    <wire from="(280,330)" to="(300,330)"/>
+    <wire from="(290,200)" to="(290,230)"/>
+    <wire from="(310,350)" to="(310,410)"/>
+    <wire from="(350,260)" to="(380,260)"/>
+    <wire from="(350,270)" to="(380,270)"/>
+    <wire from="(350,280)" to="(380,280)"/>
+    <wire from="(350,290)" to="(380,290)"/>
+    <wire from="(350,300)" to="(380,300)"/>
+    <wire from="(350,310)" to="(380,310)"/>
+    <wire from="(350,320)" to="(380,320)"/>
+    <wire from="(350,330)" to="(380,330)"/>
     <wire from="(380,260)" to="(410,260)"/>
     <wire from="(380,270)" to="(410,270)"/>
     <wire from="(380,280)" to="(410,280)"/>
@@ -341,8 +353,8 @@
     <wire from="(400,340)" to="(400,370)"/>
     <wire from="(400,370)" to="(560,370)"/>
     <wire from="(420,350)" to="(420,410)"/>
-    <wire from="(440,190)" to="(440,230)"/>
-    <wire from="(440,230)" to="(520,230)"/>
+    <wire from="(460,200)" to="(460,230)"/>
+    <wire from="(460,230)" to="(520,230)"/>
     <wire from="(460,260)" to="(480,260)"/>
     <wire from="(460,270)" to="(480,270)"/>
     <wire from="(460,280)" to="(480,280)"/>
@@ -566,6 +578,7 @@
     <comp lib="0" loc="(270,350)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="north"/>
+      <a name="label" val="set"/>
     </comp>
     <comp lib="0" loc="(340,120)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -634,9 +647,6 @@
     <comp lib="8" loc="(230,185)" name="Text">
       <a name="text" val="input"/>
       <a name="valign" val="top"/>
-    </comp>
-    <comp lib="8" loc="(270,415)" name="Text">
-      <a name="text" val="set"/>
     </comp>
     <comp lib="8" loc="(560,190)" name="Text">
       <a name="text" val="output"/>
@@ -710,10 +720,12 @@
     </comp>
     <comp lib="0" loc="(380,540)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="set"/>
       <a name="pull" val="up"/>
     </comp>
     <comp lib="0" loc="(490,340)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="data"/>
     </comp>
     <comp loc="(530,560)" name="or_nand"/>
     <comp loc="(650,360)" name="nand_transistors"/>
@@ -754,15 +766,17 @@
       <polyline fill="none" points="60,60 40,52" stroke="#000000"/>
       <polyline fill="none" points="60,60 40,69" stroke="#000000"/>
       <circ-anchor facing="east" x="60" y="60"/>
+      <circ-port dir="in" pin="230,340" x="50" y="70"/>
       <circ-port dir="in" pin="250,140" x="40" y="60"/>
-      <circ-port dir="in" pin="250,340" x="50" y="70"/>
       <circ-port dir="out" pin="660,340" x="60" y="60"/>
     </appear>
+    <comp lib="0" loc="(230,340)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="enable"/>
+    </comp>
     <comp lib="0" loc="(250,140)" name="Pin">
       <a name="appearance" val="NewPins"/>
-    </comp>
-    <comp lib="0" loc="(250,340)" name="Pin">
-      <a name="appearance" val="NewPins"/>
+      <a name="label" val="data"/>
     </comp>
     <comp lib="0" loc="(330,260)" name="Power"/>
     <comp lib="0" loc="(410,260)" name="Transistor"/>
@@ -777,14 +791,9 @@
       <a name="output" val="true"/>
     </comp>
     <comp lib="1" loc="(310,340)" name="NOT Gate"/>
-    <comp lib="8" loc="(195,305)" name="Text">
-      <a name="text" val="enabler"/>
-    </comp>
-    <comp lib="8" loc="(210,100)" name="Text">
-      <a name="text" val="data"/>
-    </comp>
     <comp loc="(390,160)" name="nand_transistors"/>
     <comp loc="(540,160)" name="nor_nand"/>
+    <wire from="(230,340)" to="(250,340)"/>
     <wire from="(250,140)" to="(270,140)"/>
     <wire from="(250,180)" to="(250,340)"/>
     <wire from="(250,180)" to="(330,180)"/>
