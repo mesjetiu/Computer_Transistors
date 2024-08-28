@@ -72,97 +72,46 @@
     <comp lib="0" loc="(160,290)" name="Pin">
       <a name="appearance" val="NewPins"/>
     </comp>
-    <comp lib="0" loc="(200,600)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(230,600)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="facing" val="north"/>
-    </comp>
     <comp lib="0" loc="(550,400)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(620,500)" name="Pin">
+    <comp lib="0" loc="(620,550)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(690,590)" name="Pin">
+    <comp lib="0" loc="(690,640)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(720,590)" name="Pin">
+    <comp lib="0" loc="(720,640)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(730,500)" name="Splitter">
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="1"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="5" loc="(150,440)" name="DipSwitch">
-      <a name="facing" val="east"/>
     </comp>
     <comp lib="5" loc="(280,260)" name="LED">
       <a name="color" val="#ddf017"/>
     </comp>
-    <comp lib="5" loc="(310,440)" name="LedBar"/>
     <comp lib="5" loc="(500,240)" name="DipSwitch">
       <a name="facing" val="east"/>
     </comp>
     <comp lib="5" loc="(660,240)" name="LedBar"/>
-    <comp lib="5" loc="(820,460)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(870,460)" name="Hex Digit Display"/>
     <comp lib="8" loc="(225,215)" name="Text">
       <a name="text" val="Memoria de 1 bit"/>
-    </comp>
-    <comp lib="8" loc="(225,380)" name="Text">
-      <a name="text" val="Registro de 1 byte"/>
     </comp>
     <comp lib="8" loc="(575,180)" name="Text">
       <a name="text" val="Memoria de 1 byte"/>
     </comp>
-    <comp loc="(240,450)" name="register_nand"/>
+    <comp lib="8" loc="(623,460)" name="Text">
+      <a name="text" val="Registro de 1 byte"/>
+    </comp>
     <comp loc="(260,260)" name="mem_bit"/>
     <comp loc="(590,250)" name="mem_byte"/>
-    <comp loc="(730,500)" name="register_nand_conbus"/>
-    <wire from="(150,450)" to="(190,450)"/>
-    <wire from="(150,460)" to="(190,460)"/>
-    <wire from="(150,470)" to="(190,470)"/>
-    <wire from="(150,480)" to="(190,480)"/>
-    <wire from="(150,490)" to="(190,490)"/>
-    <wire from="(150,500)" to="(190,500)"/>
-    <wire from="(150,510)" to="(190,510)"/>
-    <wire from="(150,520)" to="(190,520)"/>
+    <comp loc="(730,580)" name="register_nand_conbus"/>
     <wire from="(160,260)" to="(230,260)"/>
     <wire from="(160,290)" to="(220,290)"/>
-    <wire from="(200,540)" to="(200,600)"/>
     <wire from="(220,270)" to="(220,290)"/>
     <wire from="(220,270)" to="(230,270)"/>
-    <wire from="(230,540)" to="(230,600)"/>
-    <wire from="(240,450)" to="(310,450)"/>
-    <wire from="(240,460)" to="(320,460)"/>
-    <wire from="(240,470)" to="(330,470)"/>
-    <wire from="(240,480)" to="(340,480)"/>
-    <wire from="(240,490)" to="(350,490)"/>
-    <wire from="(240,500)" to="(360,500)"/>
-    <wire from="(240,510)" to="(370,510)"/>
-    <wire from="(240,520)" to="(380,520)"/>
     <wire from="(260,260)" to="(280,260)"/>
-    <wire from="(310,440)" to="(310,450)"/>
-    <wire from="(320,440)" to="(320,460)"/>
-    <wire from="(330,440)" to="(330,470)"/>
-    <wire from="(340,440)" to="(340,480)"/>
-    <wire from="(350,440)" to="(350,490)"/>
-    <wire from="(360,440)" to="(360,500)"/>
-    <wire from="(370,440)" to="(370,510)"/>
-    <wire from="(380,440)" to="(380,520)"/>
     <wire from="(500,250)" to="(540,250)"/>
     <wire from="(500,260)" to="(540,260)"/>
     <wire from="(500,270)" to="(540,270)"/>
@@ -180,21 +129,18 @@
     <wire from="(590,300)" to="(710,300)"/>
     <wire from="(590,310)" to="(720,310)"/>
     <wire from="(590,320)" to="(730,320)"/>
-    <wire from="(620,500)" to="(680,500)"/>
+    <wire from="(620,550)" to="(690,550)"/>
     <wire from="(660,240)" to="(660,250)"/>
     <wire from="(670,240)" to="(670,260)"/>
     <wire from="(680,240)" to="(680,270)"/>
     <wire from="(690,240)" to="(690,280)"/>
-    <wire from="(690,540)" to="(690,590)"/>
+    <wire from="(690,550)" to="(690,570)"/>
+    <wire from="(690,620)" to="(690,640)"/>
     <wire from="(700,240)" to="(700,290)"/>
     <wire from="(710,240)" to="(710,300)"/>
     <wire from="(720,240)" to="(720,310)"/>
-    <wire from="(720,540)" to="(720,590)"/>
+    <wire from="(720,620)" to="(720,640)"/>
     <wire from="(730,240)" to="(730,320)"/>
-    <wire from="(750,480)" to="(820,480)"/>
-    <wire from="(750,490)" to="(870,490)"/>
-    <wire from="(820,460)" to="(820,480)"/>
-    <wire from="(870,460)" to="(870,490)"/>
   </circuit>
   <circuit name="pruebas_copy_registros">
     <a name="appearance" val="logisim_evolution"/>
@@ -298,7 +244,6 @@
       <circ-port dir="in" pin="350,190" x="140" y="60"/>
       <circ-port dir="in" pin="420,410" x="170" y="110"/>
       <circ-port dir="out" pin="440,190" x="170" y="60"/>
-      <circ-port dir="out" pin="530,340" x="180" y="70"/>
     </appear>
     <comp lib="0" loc="(290,340)" name="Splitter">
       <a name="fanout" val="8"/>
@@ -328,12 +273,6 @@
       <a name="facing" val="west"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="0" loc="(530,340)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(570,250)" name="Splitter">
       <a name="bit1" val="0"/>
@@ -385,7 +324,6 @@
     <wire from="(520,230)" to="(520,250)"/>
     <wire from="(520,250)" to="(520,340)"/>
     <wire from="(520,250)" to="(570,250)"/>
-    <wire from="(520,340)" to="(530,340)"/>
     <wire from="(590,230)" to="(630,230)"/>
     <wire from="(590,240)" to="(680,240)"/>
     <wire from="(630,180)" to="(630,230)"/>
