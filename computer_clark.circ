@@ -62,6 +62,7 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(240,200)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="radix" val="16"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(340,320)" name="Pin">
@@ -71,7 +72,6 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="0" loc="(430,200)" name="Pull Resistor"/>
     <comp lib="0" loc="(490,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
     </comp>
@@ -93,12 +93,14 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="radix" val="16"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(820,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
     </comp>
+    <comp lib="0" loc="(920,200)" name="Pull Resistor"/>
     <comp lib="8" loc="(450,120)" name="Text">
       <a name="text" val="Prueba de concepto de grabación de bytes de un registro a otro"/>
     </comp>
@@ -110,9 +112,8 @@
     <wire from="(340,200)" to="(370,200)"/>
     <wire from="(340,300)" to="(340,320)"/>
     <wire from="(370,200)" to="(370,250)"/>
-    <wire from="(370,200)" to="(430,200)"/>
+    <wire from="(370,200)" to="(490,200)"/>
     <wire from="(370,300)" to="(370,320)"/>
-    <wire from="(430,200)" to="(490,200)"/>
     <wire from="(490,200)" to="(490,250)"/>
     <wire from="(490,200)" to="(520,200)"/>
     <wire from="(490,300)" to="(490,320)"/>
@@ -130,6 +131,7 @@
     <wire from="(790,300)" to="(790,320)"/>
     <wire from="(820,130)" to="(820,200)"/>
     <wire from="(820,200)" to="(820,250)"/>
+    <wire from="(820,200)" to="(920,200)"/>
     <wire from="(820,300)" to="(820,320)"/>
   </circuit>
   <circuit name="pruebas_dispositivos">
@@ -275,10 +277,12 @@
     <appear>
       <rect fill="none" height="50" stroke="#000000" width="50" x="130" y="60"/>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="169" y="71">O</text>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="155" y="77">R 1B</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="155" y="66">R 1B</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="169" y="103">E</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="139" y="71">I</text>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="103">S</text>
+      <visible-hexdigit height="20" path="/Hex Digit Display(630,180)" stroke-width="0" width="14" x="157" y="78"/>
+      <visible-hexdigit height="20" path="/Hex Digit Display(680,180)" stroke-width="0" width="14" x="140" y="78"/>
       <circ-anchor facing="east" x="180" y="70"/>
       <circ-port dir="in" pin="340,410" x="140" y="110"/>
       <circ-port dir="in" pin="350,190" x="140" y="60"/>
@@ -309,6 +313,9 @@
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="0" loc="(440,210)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+    </comp>
     <comp lib="0" loc="(500,340)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="facing" val="west"/>
@@ -321,6 +328,18 @@
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="0" loc="(570,250)" name="Splitter">
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="5" loc="(630,180)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(680,180)" name="Hex Digit Display"/>
     <comp loc="(380,260)" name="mem_byte"/>
     <comp loc="(460,260)" name="enabler_8bits"/>
     <wire from="(270,230)" to="(270,340)"/>
@@ -345,7 +364,8 @@
     <wire from="(380,320)" to="(410,320)"/>
     <wire from="(380,330)" to="(410,330)"/>
     <wire from="(420,350)" to="(420,410)"/>
-    <wire from="(440,190)" to="(440,230)"/>
+    <wire from="(440,190)" to="(440,210)"/>
+    <wire from="(440,210)" to="(440,230)"/>
     <wire from="(440,230)" to="(520,230)"/>
     <wire from="(460,260)" to="(480,260)"/>
     <wire from="(460,270)" to="(480,270)"/>
@@ -356,8 +376,14 @@
     <wire from="(460,320)" to="(480,320)"/>
     <wire from="(460,330)" to="(480,330)"/>
     <wire from="(500,340)" to="(520,340)"/>
-    <wire from="(520,230)" to="(520,340)"/>
+    <wire from="(520,230)" to="(520,250)"/>
+    <wire from="(520,250)" to="(520,340)"/>
+    <wire from="(520,250)" to="(570,250)"/>
     <wire from="(520,340)" to="(530,340)"/>
+    <wire from="(590,230)" to="(630,230)"/>
+    <wire from="(590,240)" to="(680,240)"/>
+    <wire from="(630,180)" to="(630,230)"/>
+    <wire from="(680,180)" to="(680,240)"/>
   </circuit>
   <circuit name="register_nand">
     <a name="appearance" val="custom"/>
