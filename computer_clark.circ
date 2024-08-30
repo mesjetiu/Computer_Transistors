@@ -200,11 +200,11 @@
     <comp lib="8" loc="(450,120)" name="Text">
       <a name="text" val="Prueba de concepto de grabación de bytes de un registro a otro"/>
     </comp>
-    <comp loc="(240,220)" name="register_nand_conbus"/>
-    <comp loc="(380,260)" name="register_nand_conbus"/>
-    <comp loc="(530,260)" name="register_nand_conbus"/>
-    <comp loc="(680,260)" name="register_nand_conbus"/>
-    <comp loc="(830,260)" name="register_nand_conbus"/>
+    <comp loc="(230,210)" name="register_visor"/>
+    <comp loc="(370,250)" name="register_visor"/>
+    <comp loc="(520,250)" name="register_visor"/>
+    <comp loc="(670,250)" name="register_visor"/>
+    <comp loc="(820,250)" name="register_visor"/>
     <wire from="(180,200)" to="(200,200)"/>
     <wire from="(200,200)" to="(200,210)"/>
     <wire from="(200,260)" to="(200,290)"/>
@@ -555,25 +555,25 @@
     <wire from="(390,380)" to="(420,380)"/>
     <wire from="(450,240)" to="(450,250)"/>
   </circuit>
-  <circuit name="register_nand_conbus">
+  <circuit name="register_visor">
     <a name="appearance" val="custom"/>
-    <a name="circuit" val="register_nand_conbus"/>
+    <a name="circuit" val="register_visor"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <appear>
-      <rect fill="none" height="50" stroke="#000000" width="50" x="130" y="60"/>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="169" y="71">O</text>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="155" y="66">R 1B</text>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="169" y="103">E</text>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="139" y="71">I</text>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="103">S</text>
-      <visible-hexdigit height="20" path="/Hex Digit Display(620,300)" stroke-width="0" width="14" x="156" y="78"/>
-      <visible-hexdigit height="20" path="/Hex Digit Display(670,300)" stroke-width="0" width="14" x="140" y="78"/>
-      <circ-anchor facing="east" x="180" y="70"/>
-      <circ-port dir="in" pin="290,200" x="140" y="60"/>
-      <circ-port dir="in" pin="310,410" x="140" y="110"/>
-      <circ-port dir="in" pin="420,410" x="170" y="110"/>
-      <circ-port dir="out" pin="460,200" x="170" y="60"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="110" y="50">I</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="110" y="82">S</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="82">E</text>
+      <visible-hexdigit height="20" path="/Hex Digit Display(670,300)" stroke-width="0" width="14" x="112" y="56"/>
+      <visible-hexdigit height="20" path="/Hex Digit Display(620,300)" stroke-width="0" width="14" x="127" y="56"/>
+      <rect fill="none" height="50" stroke="#000000" width="50" x="100" y="40"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="50">O</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="125" y="45">R 1B</text>
+      <circ-anchor facing="east" x="140" y="40"/>
+      <circ-port dir="in" pin="290,200" x="110" y="40"/>
+      <circ-port dir="in" pin="310,410" x="110" y="90"/>
+      <circ-port dir="in" pin="420,410" x="140" y="90"/>
+      <circ-port dir="out" pin="460,200" x="140" y="40"/>
     </appear>
     <comp lib="0" loc="(260,340)" name="Splitter">
       <a name="fanout" val="8"/>
@@ -684,6 +684,94 @@
     <wire from="(580,360)" to="(670,360)"/>
     <wire from="(620,300)" to="(620,350)"/>
     <wire from="(670,300)" to="(670,360)"/>
+  </circuit>
+  <circuit name="register_nand_conbus">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="register_nand_conbus"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <rect fill="none" height="50" stroke="#000000" width="50" x="130" y="60"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="169" y="71">O</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="155" y="66">R 1B</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="169" y="103">E</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="139" y="71">I</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="140" y="103">S</text>
+      <circ-anchor facing="east" x="180" y="70"/>
+      <circ-port dir="in" pin="290,200" x="140" y="60"/>
+      <circ-port dir="in" pin="310,410" x="140" y="110"/>
+      <circ-port dir="in" pin="420,410" x="170" y="110"/>
+      <circ-port dir="out" pin="460,200" x="170" y="60"/>
+    </appear>
+    <comp lib="0" loc="(260,340)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(290,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="label" val="input_data"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(310,410)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="set"/>
+    </comp>
+    <comp lib="0" loc="(420,410)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="enable"/>
+    </comp>
+    <comp lib="0" loc="(460,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="label" val="output_data"/>
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(500,340)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp loc="(350,260)" name="mem_byte"/>
+    <comp loc="(460,260)" name="enabler_8bits"/>
+    <wire from="(240,230)" to="(240,340)"/>
+    <wire from="(240,230)" to="(290,230)"/>
+    <wire from="(240,340)" to="(260,340)"/>
+    <wire from="(280,260)" to="(300,260)"/>
+    <wire from="(280,270)" to="(300,270)"/>
+    <wire from="(280,280)" to="(300,280)"/>
+    <wire from="(280,290)" to="(300,290)"/>
+    <wire from="(280,300)" to="(300,300)"/>
+    <wire from="(280,310)" to="(300,310)"/>
+    <wire from="(280,320)" to="(300,320)"/>
+    <wire from="(280,330)" to="(300,330)"/>
+    <wire from="(290,200)" to="(290,230)"/>
+    <wire from="(310,350)" to="(310,410)"/>
+    <wire from="(350,260)" to="(410,260)"/>
+    <wire from="(350,270)" to="(410,270)"/>
+    <wire from="(350,280)" to="(410,280)"/>
+    <wire from="(350,290)" to="(410,290)"/>
+    <wire from="(350,300)" to="(410,300)"/>
+    <wire from="(350,310)" to="(410,310)"/>
+    <wire from="(350,320)" to="(410,320)"/>
+    <wire from="(350,330)" to="(410,330)"/>
+    <wire from="(420,350)" to="(420,410)"/>
+    <wire from="(460,200)" to="(460,230)"/>
+    <wire from="(460,230)" to="(520,230)"/>
+    <wire from="(460,260)" to="(480,260)"/>
+    <wire from="(460,270)" to="(480,270)"/>
+    <wire from="(460,280)" to="(480,280)"/>
+    <wire from="(460,290)" to="(480,290)"/>
+    <wire from="(460,300)" to="(480,300)"/>
+    <wire from="(460,310)" to="(480,310)"/>
+    <wire from="(460,320)" to="(480,320)"/>
+    <wire from="(460,330)" to="(480,330)"/>
+    <wire from="(500,340)" to="(520,340)"/>
+    <wire from="(520,230)" to="(520,340)"/>
   </circuit>
   <circuit name="enabler_8bits">
     <a name="appearance" val="custom"/>
