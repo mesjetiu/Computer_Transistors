@@ -249,7 +249,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="RAM_clark"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
+    <a name="simulationFrequency" val="16.0"/>
     <comp lib="0" loc="(1010,440)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="south"/>
@@ -2200,7 +2200,6 @@
     <wire from="(1780,850)" to="(1830,850)"/>
     <wire from="(1780,950)" to="(1780,960)"/>
     <wire from="(1780,950)" to="(1830,950)"/>
-    <wire from="(180,340)" to="(260,340)"/>
     <wire from="(1810,1090)" to="(1810,1190)"/>
     <wire from="(1810,1090)" to="(1830,1090)"/>
     <wire from="(1810,1190)" to="(1810,1290)"/>
@@ -3871,7 +3870,7 @@
     <a name="appearance" val="custom"/>
     <a name="circuit" val="registro_RAM"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
+    <a name="simulationFrequency" val="16.0"/>
     <appear>
       <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="155" y="81">R 1B</text>
       <rect fill="none" height="50" stroke="#000000" width="50" x="130" y="60"/>
@@ -3883,7 +3882,7 @@
       <circ-port dir="in" pin="280,470" x="160" y="110"/>
       <circ-port dir="in" pin="420,380" x="170" y="60"/>
       <circ-port dir="in" pin="420,420" x="140" y="60"/>
-      <circ-port dir="in" pin="450,240" x="180" y="60"/>
+      <circ-port dir="out" pin="450,240" x="180" y="60"/>
     </appear>
     <comp lib="0" loc="(280,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -3913,6 +3912,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="south"/>
       <a name="label" val="output_bus"/>
+      <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
     <comp loc="(340,390)" name="and_nand_small">
@@ -4274,7 +4274,7 @@
       <a name="text" val="input"/>
       <a name="valign" val="top"/>
     </comp>
-    <comp lib="8" loc="(495,43)" name="Text">
+    <comp lib="8" loc="(495,40)" name="Text">
       <a name="text" val="El buffer controlado puede sustituirse por buffer_alta_impedancia"/>
     </comp>
     <comp lib="8" loc="(550,650)" name="Text">
