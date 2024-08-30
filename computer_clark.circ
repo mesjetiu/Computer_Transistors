@@ -3876,7 +3876,7 @@
       <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="155" y="81">R 1B</text>
       <rect fill="none" height="50" stroke="#000000" width="50" x="130" y="60"/>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="136" y="90">v</text>
-      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="174" y="89">h</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="159" y="99">h</text>
       <circ-anchor facing="east" x="180" y="60"/>
       <circ-port dir="in" pin="280,240" x="130" y="60"/>
       <circ-port dir="in" pin="280,420" x="130" y="90"/>
@@ -4080,7 +4080,7 @@
     <a name="appearance" val="custom"/>
     <a name="circuit" val="register_nand_conbus"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
+    <a name="simulationFrequency" val="16.0"/>
     <appear>
       <rect fill="none" height="50" stroke="#000000" width="50" x="130" y="60"/>
       <text dominant-baseline="central" font-family="SansSerif" font-size="12" text-anchor="middle" x="169" y="71">O</text>
@@ -4538,7 +4538,7 @@
     <wire from="(350,580)" to="(470,580)"/>
     <wire from="(380,540)" to="(470,540)"/>
     <wire from="(490,340)" to="(590,340)"/>
-    <wire from="(530,560)" to="(550,560)"/>
+    <wire from="(520,560)" to="(550,560)"/>
     <wire from="(550,380)" to="(550,560)"/>
     <wire from="(550,380)" to="(590,380)"/>
     <wire from="(550,560)" to="(720,560)"/>
