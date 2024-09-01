@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>i1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2060" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>i2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2060" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes/>
+      <pos x="-1860" y="-160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="-1980" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="-1900" y="-200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="-1960" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="-1960" y="-60"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-2060" y="0"/>
+      <p2 x="-1960" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-2060" y="-120"/>
+      <p2 x="-1960" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="-1980" y="-160"/>
+      <p2 x="-1900" y="-160"/>
+    </wire>
+    <wire>
+      <p1 x="-1900" y="-160"/>
+      <p2 x="-1860" y="-160"/>
+    </wire>
+    <wire>
+      <p1 x="-1960" y="0"/>
+      <p2 x="-1960" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-1960" y="-120"/>
+      <p2 x="-1960" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="-1980" y="-60"/>
+      <p2 x="-1980" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-1980" y="-160"/>
+      <p2 x="-1980" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="-1980" y="60"/>
+      <p2 x="-1980" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="-1900" y="-200"/>
+      <p2 x="-1900" y="-160"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
