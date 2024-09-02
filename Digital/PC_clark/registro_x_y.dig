@@ -99,12 +99,12 @@
     <visualElement>
       <elementName>and_nand.dig</elementName>
       <elementAttributes/>
-      <pos x="360" y="460"/>
+      <pos x="860" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>and_nand.dig</elementName>
       <elementAttributes/>
-      <pos x="860" y="380"/>
+      <pos x="360" y="460"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -150,7 +150,7 @@
     </wire>
     <wire>
       <p1 x="300" y="460"/>
-      <p2 x="380" y="460"/>
+      <p2 x="360" y="460"/>
     </wire>
     <wire>
       <p1 x="300" y="380"/>
