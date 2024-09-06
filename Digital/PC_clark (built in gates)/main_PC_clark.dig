@@ -112,7 +112,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="520" y="380"/>
+      <pos x="460" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Button</elementName>
@@ -122,7 +122,7 @@
     <visualElement>
       <elementName>Button</elementName>
       <elementAttributes/>
-      <pos x="460" y="380"/>
+      <pos x="520" y="380"/>
     </visualElement>
   </visualElements>
   <wires>
