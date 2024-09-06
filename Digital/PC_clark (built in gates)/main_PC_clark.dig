@@ -61,26 +61,6 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>enabler</string>
-        </entry>
-      </elementAttributes>
-      <pos x="620" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>set</string>
-        </entry>
-      </elementAttributes>
-      <pos x="620" y="380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>input bus</string>
         </entry>
         <entry>
@@ -123,6 +103,26 @@
         </entry>
       </elementAttributes>
       <pos x="220" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes/>
+      <pos x="620" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes/>
+      <pos x="460" y="380"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -175,7 +175,7 @@
       <p2 x="1140" y="380"/>
     </wire>
     <wire>
-      <p1 x="620" y="380"/>
+      <p1 x="520" y="380"/>
       <p2 x="820" y="380"/>
     </wire>
     <wire>
