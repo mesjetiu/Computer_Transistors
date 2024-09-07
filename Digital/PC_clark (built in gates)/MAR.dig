@@ -17,6 +17,10 @@
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>out</string>
         </entry>
@@ -25,7 +29,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1440" y="300"/>
+      <pos x="1440" y="700"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -334,6 +338,10 @@
     <wire>
       <p1 x="1360" y="100"/>
       <p2 x="1360" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1440" y="300"/>
+      <p2 x="1440" y="700"/>
     </wire>
     <wire>
       <p1 x="420" y="240"/>
