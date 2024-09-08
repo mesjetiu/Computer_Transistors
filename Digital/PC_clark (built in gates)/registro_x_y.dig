@@ -30,7 +30,12 @@
     </visualElement>
     <visualElement>
       <elementName>registro.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>SIMPLE</shapeType>
+        </entry>
+      </elementAttributes>
       <pos x="1020" y="240"/>
     </visualElement>
     <visualElement>
