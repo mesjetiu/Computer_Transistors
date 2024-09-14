@@ -1,3 +1,3 @@
 Falta hacer:
 
-AND compuesto para 4 entradas (para decoder)
+construir Decoder para ALU (op)
