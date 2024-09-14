@@ -120,89 +120,49 @@
       <pos x="-220" y="-60"/>
     </visualElement>
     <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="420" y="-120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="420" y="-60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="420" y="0"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="420" y="60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="420" y="120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="420" y="300"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="420" y="420"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="420" y="480"/>
-    </visualElement>
-    <visualElement>
       <elementName>enabler_high_impedance.dig</elementName>
       <elementAttributes/>
       <pos x="1080" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>and_nand.dig</elementName>
+      <elementAttributes/>
+      <pos x="420" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>and_nand.dig</elementName>
+      <elementAttributes/>
+      <pos x="420" y="-60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>and_nand.dig</elementName>
+      <elementAttributes/>
+      <pos x="420" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>and_nand.dig</elementName>
+      <elementAttributes/>
+      <pos x="420" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>and_nand.dig</elementName>
+      <elementAttributes/>
+      <pos x="420" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>and_nand.dig</elementName>
+      <elementAttributes/>
+      <pos x="420" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>and_nand.dig</elementName>
+      <elementAttributes/>
+      <pos x="420" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>and_nand.dig</elementName>
+      <elementAttributes/>
+      <pos x="420" y="480"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -213,6 +173,10 @@
     <wire>
       <p1 x="-80" y="320"/>
       <p2 x="120" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="320"/>
+      <p2 x="500" y="320"/>
     </wire>
     <wire>
       <p1 x="-380" y="260"/>
@@ -255,7 +219,7 @@
       <p2 x="1020" y="140"/>
     </wire>
     <wire>
-      <p1 x="500" y="140"/>
+      <p1 x="480" y="140"/>
       <p2 x="920" y="140"/>
     </wire>
     <wire>
@@ -271,7 +235,7 @@
       <p2 x="-20" y="80"/>
     </wire>
     <wire>
-      <p1 x="500" y="80"/>
+      <p1 x="480" y="80"/>
       <p2 x="940" y="80"/>
     </wire>
     <wire>
@@ -291,7 +255,7 @@
       <p2 x="40" y="20"/>
     </wire>
     <wire>
-      <p1 x="500" y="20"/>
+      <p1 x="480" y="20"/>
       <p2 x="960" y="20"/>
     </wire>
     <wire>
@@ -327,7 +291,7 @@
       <p2 x="420" y="480"/>
     </wire>
     <wire>
-      <p1 x="500" y="-100"/>
+      <p1 x="480" y="-100"/>
       <p2 x="1000" y="-100"/>
     </wire>
     <wire>
@@ -355,7 +319,7 @@
       <p2 x="-60" y="-40"/>
     </wire>
     <wire>
-      <p1 x="500" y="-40"/>
+      <p1 x="480" y="-40"/>
       <p2 x="980" y="-40"/>
     </wire>
     <wire>
@@ -387,7 +351,7 @@
       <p2 x="1020" y="180"/>
     </wire>
     <wire>
-      <p1 x="500" y="500"/>
+      <p1 x="480" y="500"/>
       <p2 x="540" y="500"/>
     </wire>
     <wire>
@@ -407,7 +371,7 @@
       <p2 x="1060" y="120"/>
     </wire>
     <wire>
-      <p1 x="500" y="440"/>
+      <p1 x="480" y="440"/>
       <p2 x="520" y="440"/>
     </wire>
     <wire>

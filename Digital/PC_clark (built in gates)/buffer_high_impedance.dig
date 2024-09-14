@@ -58,35 +58,10 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[6]/elementAttributes/entry/rotation"/>
+          <rotation rotation="1"/>
         </entry>
       </elementAttributes>
       <pos x="500" y="280"/>
-    </visualElement>
-    <visualElement>
-      <elementName>NAnd</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="200" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes/>
-      <pos x="200" y="380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="380" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>PullDown</elementName>
@@ -98,8 +73,31 @@
       <elementAttributes/>
       <pos x="140" y="420"/>
     </visualElement>
+    <visualElement>
+      <elementName>nand_tr.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>or_nand.dig</elementName>
+      <elementAttributes/>
+      <pos x="380" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>not_nand.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="380"/>
+    </visualElement>
   </visualElements>
   <wires>
+    <wire>
+      <p1 x="260" y="160"/>
+      <p2 x="280" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="160"/>
+      <p2 x="460" y="160"/>
+    </wire>
     <wire>
       <p1 x="160" y="180"/>
       <p2 x="200" y="180"/>
@@ -137,20 +135,16 @@
       <p2 x="500" y="280"/>
     </wire>
     <wire>
-      <p1 x="280" y="200"/>
-      <p2 x="300" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="120" y="380"/>
-      <p2 x="140" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="240" y="380"/>
+      <p1 x="260" y="380"/>
       <p2 x="360" y="380"/>
     </wire>
     <wire>
       <p1 x="420" y="380"/>
       <p2 x="660" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="380"/>
+      <p2 x="140" y="380"/>
     </wire>
     <wire>
       <p1 x="140" y="380"/>
@@ -197,7 +191,7 @@
       <p2 x="360" y="380"/>
     </wire>
     <wire>
-      <p1 x="280" y="200"/>
+      <p1 x="280" y="160"/>
       <p2 x="280" y="280"/>
     </wire>
     <wire>
@@ -207,10 +201,6 @@
     <wire>
       <p1 x="220" y="240"/>
       <p2 x="220" y="260"/>
-    </wire>
-    <wire>
-      <p1 x="300" y="160"/>
-      <p2 x="300" y="200"/>
     </wire>
     <wire>
       <p1 x="460" y="160"/>

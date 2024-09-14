@@ -125,83 +125,43 @@
       <pos x="1460" y="620"/>
     </visualElement>
     <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>or_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="800" y="-60"/>
     </visualElement>
     <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>or_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="800" y="0"/>
     </visualElement>
     <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>or_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="800" y="60"/>
     </visualElement>
     <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>or_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="800" y="120"/>
     </visualElement>
     <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>or_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="800" y="180"/>
     </visualElement>
     <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>or_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="800" y="360"/>
     </visualElement>
     <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>or_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="800" y="480"/>
     </visualElement>
     <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>or_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="800" y="540"/>
     </visualElement>
   </visualElements>
@@ -251,7 +211,7 @@
       <p2 x="1400" y="200"/>
     </wire>
     <wire>
-      <p1 x="880" y="200"/>
+      <p1 x="860" y="200"/>
       <p2 x="1300" y="200"/>
     </wire>
     <wire>
@@ -263,7 +223,7 @@
       <p2 x="360" y="140"/>
     </wire>
     <wire>
-      <p1 x="880" y="140"/>
+      <p1 x="860" y="140"/>
       <p2 x="1320" y="140"/>
     </wire>
     <wire>
@@ -275,7 +235,7 @@
       <p2 x="420" y="80"/>
     </wire>
     <wire>
-      <p1 x="880" y="80"/>
+      <p1 x="860" y="80"/>
       <p2 x="1340" y="80"/>
     </wire>
     <wire>
@@ -311,7 +271,7 @@
       <p2 x="320" y="20"/>
     </wire>
     <wire>
-      <p1 x="880" y="20"/>
+      <p1 x="860" y="20"/>
       <p2 x="1360" y="20"/>
     </wire>
     <wire>
@@ -355,7 +315,7 @@
       <p2 x="800" y="100"/>
     </wire>
     <wire>
-      <p1 x="880" y="-40"/>
+      <p1 x="860" y="-40"/>
       <p2 x="1380" y="-40"/>
     </wire>
     <wire>
@@ -383,7 +343,7 @@
       <p2 x="1400" y="240"/>
     </wire>
     <wire>
-      <p1 x="880" y="560"/>
+      <p1 x="860" y="560"/>
       <p2 x="920" y="560"/>
     </wire>
     <wire>
@@ -399,7 +359,7 @@
       <p2 x="1440" y="180"/>
     </wire>
     <wire>
-      <p1 x="880" y="500"/>
+      <p1 x="860" y="500"/>
       <p2 x="900" y="500"/>
     </wire>
     <wire>
@@ -433,6 +393,10 @@
     <wire>
       <p1 x="300" y="380"/>
       <p2 x="500" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="380"/>
+      <p2 x="880" y="380"/>
     </wire>
     <wire>
       <p1 x="1600" y="640"/>
