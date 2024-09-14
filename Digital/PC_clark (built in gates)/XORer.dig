@@ -125,84 +125,44 @@
       <pos x="1400" y="620"/>
     </visualElement>
     <visualElement>
-      <elementName>XOr</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>xor_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="740" y="-60"/>
     </visualElement>
     <visualElement>
-      <elementName>XOr</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>xor_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="740" y="0"/>
     </visualElement>
     <visualElement>
-      <elementName>XOr</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>xor_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="740" y="60"/>
     </visualElement>
     <visualElement>
-      <elementName>XOr</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>xor_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="740" y="120"/>
     </visualElement>
     <visualElement>
-      <elementName>XOr</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>xor_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="740" y="180"/>
     </visualElement>
     <visualElement>
-      <elementName>XOr</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>XOr</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>xor_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="740" y="480"/>
     </visualElement>
     <visualElement>
-      <elementName>XOr</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementName>xor_nand.dig</elementName>
+      <elementAttributes/>
       <pos x="740" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>xor_nand.dig</elementName>
+      <elementAttributes/>
+      <pos x="740" y="360"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -251,7 +211,7 @@
       <p2 x="1340" y="200"/>
     </wire>
     <wire>
-      <p1 x="820" y="200"/>
+      <p1 x="800" y="200"/>
       <p2 x="1240" y="200"/>
     </wire>
     <wire>
@@ -263,7 +223,7 @@
       <p2 x="300" y="140"/>
     </wire>
     <wire>
-      <p1 x="820" y="140"/>
+      <p1 x="800" y="140"/>
       <p2 x="1260" y="140"/>
     </wire>
     <wire>
@@ -275,7 +235,7 @@
       <p2 x="360" y="80"/>
     </wire>
     <wire>
-      <p1 x="820" y="80"/>
+      <p1 x="800" y="80"/>
       <p2 x="1280" y="80"/>
     </wire>
     <wire>
@@ -311,7 +271,7 @@
       <p2 x="260" y="20"/>
     </wire>
     <wire>
-      <p1 x="820" y="20"/>
+      <p1 x="800" y="20"/>
       <p2 x="1300" y="20"/>
     </wire>
     <wire>
@@ -355,7 +315,7 @@
       <p2 x="740" y="100"/>
     </wire>
     <wire>
-      <p1 x="820" y="-40"/>
+      <p1 x="800" y="-40"/>
       <p2 x="1320" y="-40"/>
     </wire>
     <wire>
@@ -383,7 +343,7 @@
       <p2 x="1340" y="240"/>
     </wire>
     <wire>
-      <p1 x="820" y="560"/>
+      <p1 x="800" y="560"/>
       <p2 x="860" y="560"/>
     </wire>
     <wire>
@@ -399,7 +359,7 @@
       <p2 x="1380" y="180"/>
     </wire>
     <wire>
-      <p1 x="820" y="500"/>
+      <p1 x="800" y="500"/>
       <p2 x="840" y="500"/>
     </wire>
     <wire>
@@ -433,6 +393,10 @@
     <wire>
       <p1 x="240" y="380"/>
       <p2 x="440" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="380"/>
+      <p2 x="820" y="380"/>
     </wire>
     <wire>
       <p1 x="320" y="120"/>
