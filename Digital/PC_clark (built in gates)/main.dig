@@ -162,14 +162,19 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[7]/elementAttributes/entry/rotation"/>
+          <rotation rotation="1"/>
         </entry>
       </elementAttributes>
       <pos x="440" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>isHighZ</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
       <pos x="520" y="240"/>
     </visualElement>
     <visualElement>
