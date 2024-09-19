@@ -11,7 +11,7 @@
           <string>o</string>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="300"/>
+      <pos x="1040" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -97,7 +97,7 @@
           <string>i1</string>
         </entry>
       </elementAttributes>
-      <pos x="540" y="120"/>
+      <pos x="520" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -183,7 +183,7 @@
           <string>i2</string>
         </entry>
       </elementAttributes>
-      <pos x="540" y="480"/>
+      <pos x="520" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -261,10 +261,40 @@
       </elementAttributes>
       <pos x="542" y="319"/>
     </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>37</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>OR</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>26</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="522" y="-81"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="540" y="480"/>
+      <p1 x="520" y="480"/>
       <p2 x="560" y="480"/>
     </wire>
     <wire>
@@ -325,7 +355,7 @@
     </wire>
     <wire>
       <p1 x="1000" y="300"/>
-      <p2 x="1020" y="300"/>
+      <p2 x="1040" y="300"/>
     </wire>
     <wire>
       <p1 x="960" y="300"/>
@@ -360,7 +390,7 @@
       <p2 x="920" y="340"/>
     </wire>
     <wire>
-      <p1 x="540" y="120"/>
+      <p1 x="520" y="120"/>
       <p2 x="560" y="120"/>
     </wire>
     <wire>
