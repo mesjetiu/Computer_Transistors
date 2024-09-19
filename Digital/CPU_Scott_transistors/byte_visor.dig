@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>segSize</string>
+          <int>10</int>
+        </entry>
+      </elementAttributes>
+      <pos x="720" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4,4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>segSize</string>
+          <int>10</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="500"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="560" y="660"/>
+      <p2 x="1040" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="680"/>
+      <p2 x="760" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="680"/>
+      <p2 x="1060" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="640"/>
+      <p2 x="1040" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="640"/>
+      <p2 x="1060" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="640"/>
+      <p2 x="760" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="640"/>
+      <p2 x="780" y="680"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
