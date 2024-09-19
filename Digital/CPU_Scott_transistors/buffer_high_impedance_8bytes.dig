@@ -1,0 +1,7832 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>70</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Set</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1080" y="2220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,1,1,1,1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="-1060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1,1,1,1,1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="3120" y="2140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>o</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="3180" y="2140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>70</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Output</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2500" y="2200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>70</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Input</string>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="-1060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="3400" y="960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>segSize</string>
+          <int>10</int>
+        </entry>
+      </elementAttributes>
+      <pos x="3340" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4,4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="3160" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>segSize</string>
+          <int>10</int>
+        </entry>
+      </elementAttributes>
+      <pos x="3580" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="2580" y="1200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>70</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>175</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Buffer HI 8B</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>115</int>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="-1180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="-560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="-620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="-680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="-800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1221" y="-857"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="-240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="-360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="-440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="-440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="-480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1222" y="-541"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="1800" y="-540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1820" y="-480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="1200" y="-720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>35</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>OR</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>18</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1421" y="-898"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>38</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Buffer HI</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>33</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1177" y="-936"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="1800" y="-860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="1820" y="-880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="-240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="-360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1480" y="-440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="-440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="-480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1442" y="-541"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="-560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="-620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="-680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1480" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="-800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1442" y="-861"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1740" y="-400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="-460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="-520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1660" y="-600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="-600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1740" y="-640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1621" y="-697"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1221" y="-77"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1222" y="239"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="1800" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1820" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="1200" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>35</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>OR</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>18</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1421" y="-118"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>38</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Buffer HI</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>33</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1177" y="-156"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="1800" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="1820" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1480" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1442" y="239"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1480" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1442" y="-81"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1740" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1660" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1740" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1621" y="83"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="1000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1221" y="703"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="1320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="1260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="1200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="1080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1222" y="1019"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="1800" y="1020"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1820" y="1080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="1200" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>35</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>OR</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>18</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1421" y="662"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>38</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Buffer HI</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>33</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1177" y="624"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="1800" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="1820" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="1320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="1260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="1200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1480" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="1080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1442" y="1019"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="1000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1480" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1442" y="699"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1740" y="1160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="1100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="1040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1660" y="960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1740" y="920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1621" y="863"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="1780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="1720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="1660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="1540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1221" y="1483"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="2100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="2040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="1980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="1900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="1900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="1860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1222" y="1799"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="1800" y="1800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1820" y="1860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="1200" y="1620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>35</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>OR</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>18</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1421" y="1442"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>38</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Buffer HI</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>33</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1177" y="1404"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="1800" y="1480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="1820" y="1460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="2100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="2040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="1980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1480" y="1900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="1900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="1860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1442" y="1799"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="1780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="1720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="1660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1480" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1540" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1560" y="1540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1442" y="1479"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1740" y="1940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="1880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="1820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1660" y="1740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="1740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="1740" y="1700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1621" y="1643"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="-560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="-620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="-680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2240" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="-800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2201" y="-857"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="-240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="-360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2240" y="-440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="-440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="-480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2202" y="-541"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="2780" y="-540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2800" y="-480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="2180" y="-720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>35</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>OR</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>18</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2401" y="-898"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>38</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Buffer HI</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>33</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2157" y="-936"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="2780" y="-860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="2800" y="-880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="-240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="-360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2460" y="-440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="-440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="-480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2422" y="-541"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="-560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="-620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="-680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2460" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="-800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2422" y="-861"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2720" y="-400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="-460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="-520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2640" y="-600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="-600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2720" y="-640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2601" y="-697"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2240" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2201" y="-77"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2240" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2202" y="239"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="2780" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2800" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="2180" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>35</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>OR</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>18</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2401" y="-118"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>38</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Buffer HI</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>33</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2157" y="-156"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="2780" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="2800" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2460" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2422" y="239"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2460" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2422" y="-81"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2720" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2640" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2720" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2601" y="83"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="1000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2240" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2201" y="703"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="1320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="1260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="1200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2240" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="1080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2202" y="1019"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="2780" y="1020"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2800" y="1080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="2180" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>35</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>OR</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>18</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2401" y="662"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>38</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Buffer HI</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>33</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2157" y="624"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="2780" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="2800" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="1320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="1260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="1200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2460" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="1080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2422" y="1019"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="1000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2460" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2422" y="699"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2720" y="1160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="1100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="1040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2640" y="960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2720" y="920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2601" y="863"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="1780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="1720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="1660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2240" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="1540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2201" y="1483"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="2100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="2040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="1980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2240" y="1900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2300" y="1900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2320" y="1860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2202" y="1799"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="2780" y="1800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2800" y="1860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="2180" y="1620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>35</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>OR</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>18</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2401" y="1442"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>38</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Buffer HI</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>33</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2157" y="1404"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes/>
+      <pos x="2780" y="1480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="2800" y="1460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="2100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="2040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="1980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2460" y="1900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="1900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="1860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2422" y="1799"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="1780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="1720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="1660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2460" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2520" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2540" y="1540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2422" y="1479"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="2720" y="1940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="1880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="1820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2640" y="1740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PFET</elementName>
+      <elementAttributes>
+        <entry>
+          <string>unidirectional</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2700" y="1740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PullUp</elementName>
+      <elementAttributes/>
+      <pos x="2720" y="1700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>RectInside</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>NAND</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2601" y="1643"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>i</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="-1060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes/>
+      <pos x="880" y="2300"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="1280" y="0"/>
+      <p2 x="1340" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="0"/>
+      <p2 x="1560" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="0"/>
+      <p2 x="2320" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="0"/>
+      <p2 x="2540" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="1920"/>
+      <p2 x="1720" y="1920"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="1920"/>
+      <p2 x="2700" y="1920"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="-260"/>
+      <p2 x="1320" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="-260"/>
+      <p2 x="1540" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="-260"/>
+      <p2 x="2300" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="-260"/>
+      <p2 x="2520" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="3020" y="2180"/>
+      <p2 x="3120" y="2180"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="1800"/>
+      <p2 x="1740" y="1800"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="1800"/>
+      <p2 x="2720" y="1800"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1800"/>
+      <p2 x="2780" y="1800"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="1800"/>
+      <p2 x="1800" y="1800"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="520"/>
+      <p2 x="1320" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="520"/>
+      <p2 x="1540" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="520"/>
+      <p2 x="2300" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="520"/>
+      <p2 x="2520" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="-780"/>
+      <p2 x="1340" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="-780"/>
+      <p2 x="1560" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="-780"/>
+      <p2 x="2320" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="-780"/>
+      <p2 x="2540" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="780"/>
+      <p2 x="1340" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="780"/>
+      <p2 x="1560" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="780"/>
+      <p2 x="2320" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="780"/>
+      <p2 x="2540" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="140"/>
+      <p2 x="1320" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="140"/>
+      <p2 x="1520" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="140"/>
+      <p2 x="2300" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="140"/>
+      <p2 x="2500" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="140"/>
+      <p2 x="1540" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="140"/>
+      <p2 x="2520" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-1040"/>
+      <p2 x="2060" y="-1040"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="400"/>
+      <p2 x="1200" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="400"/>
+      <p2 x="1340" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="400"/>
+      <p2 x="1560" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2100" y="400"/>
+      <p2 x="2180" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="400"/>
+      <p2 x="2320" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="400"/>
+      <p2 x="2540" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="400"/>
+      <p2 x="2220" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="400"/>
+      <p2 x="2440" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="400"/>
+      <p2 x="1240" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="400"/>
+      <p2 x="1460" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="400"/>
+      <p2 x="2580" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="400"/>
+      <p2 x="1600" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="20"/>
+      <p2 x="1320" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="20"/>
+      <p2 x="1540" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="20"/>
+      <p2 x="1480" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="20"/>
+      <p2 x="1200" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="20"/>
+      <p2 x="2300" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="20"/>
+      <p2 x="2520" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="20"/>
+      <p2 x="2460" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="2060" y="20"/>
+      <p2 x="2180" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="20"/>
+      <p2 x="2220" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="20"/>
+      <p2 x="1240" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="20"/>
+      <p2 x="2240" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="20"/>
+      <p2 x="1260" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1300"/>
+      <p2 x="1320" y="1300"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1300"/>
+      <p2 x="1540" y="1300"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1300"/>
+      <p2 x="2300" y="1300"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="1300"/>
+      <p2 x="2520" y="1300"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-920"/>
+      <p2 x="1020" y="-920"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1560"/>
+      <p2 x="1340" y="1560"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1560"/>
+      <p2 x="1560" y="1560"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="1560"/>
+      <p2 x="2320" y="1560"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1560"/>
+      <p2 x="2540" y="1560"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="920"/>
+      <p2 x="1320" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="920"/>
+      <p2 x="1520" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="920"/>
+      <p2 x="2300" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="920"/>
+      <p2 x="2500" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="920"/>
+      <p2 x="2520" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="920"/>
+      <p2 x="1540" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="3000" y="2200"/>
+      <p2 x="3120" y="2200"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="-540"/>
+      <p2 x="1740" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="-540"/>
+      <p2 x="2720" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="-540"/>
+      <p2 x="1800" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="-540"/>
+      <p2 x="2780" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="1180"/>
+      <p2 x="1200" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1180"/>
+      <p2 x="1340" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1180"/>
+      <p2 x="1560" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2100" y="1180"/>
+      <p2 x="2180" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="1180"/>
+      <p2 x="2320" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1180"/>
+      <p2 x="2540" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1180"/>
+      <p2 x="2580" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1180"/>
+      <p2 x="1600" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="1180"/>
+      <p2 x="2220" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1180"/>
+      <p2 x="2440" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="1180"/>
+      <p2 x="1240" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1180"/>
+      <p2 x="1460" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="2080"/>
+      <p2 x="1320" y="2080"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="2080"/>
+      <p2 x="1540" y="2080"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="2080"/>
+      <p2 x="2300" y="2080"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="2080"/>
+      <p2 x="2520" y="2080"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="800"/>
+      <p2 x="1320" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="800"/>
+      <p2 x="1540" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="800"/>
+      <p2 x="1480" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="800"/>
+      <p2 x="2300" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="800"/>
+      <p2 x="2520" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="800"/>
+      <p2 x="2460" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="2040" y="800"/>
+      <p2 x="2180" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="800"/>
+      <p2 x="1200" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="800"/>
+      <p2 x="1260" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="800"/>
+      <p2 x="2220" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="800"/>
+      <p2 x="1240" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="800"/>
+      <p2 x="2240" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="160"/>
+      <p2 x="1300" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="160"/>
+      <p2 x="1740" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="160"/>
+      <p2 x="2280" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="160"/>
+      <p2 x="2720" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-1060"/>
+      <p2 x="2080" y="-1060"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="-1060"/>
+      <p2 x="940" y="-1060"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="-420"/>
+      <p2 x="1720" y="-420"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="-420"/>
+      <p2 x="2700" y="-420"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="1700"/>
+      <p2 x="1320" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="1700"/>
+      <p2 x="1520" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="1700"/>
+      <p2 x="2300" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1700"/>
+      <p2 x="2500" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="1700"/>
+      <p2 x="2520" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1700"/>
+      <p2 x="1540" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="1960"/>
+      <p2 x="1200" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1960"/>
+      <p2 x="1340" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1960"/>
+      <p2 x="1560" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2100" y="1960"/>
+      <p2 x="2180" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="1960"/>
+      <p2 x="2320" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1960"/>
+      <p2 x="2540" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1960"/>
+      <p2 x="2440" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="1960"/>
+      <p2 x="1240" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1960"/>
+      <p2 x="1460" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1960"/>
+      <p2 x="2580" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1960"/>
+      <p2 x="1600" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="1960"/>
+      <p2 x="2220" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="680"/>
+      <p2 x="1400" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="680"/>
+      <p2 x="2380" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-940"/>
+      <p2 x="1040" y="-940"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="300"/>
+      <p2 x="1720" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="2620" y="300"/>
+      <p2 x="2700" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1580"/>
+      <p2 x="1320" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1580"/>
+      <p2 x="1540" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="1580"/>
+      <p2 x="1480" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1580"/>
+      <p2 x="2300" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="1580"/>
+      <p2 x="2520" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1580"/>
+      <p2 x="2460" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2020" y="1580"/>
+      <p2 x="2180" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="1580"/>
+      <p2 x="1200" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="1580"/>
+      <p2 x="2240" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="1580"/>
+      <p2 x="1260" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="1580"/>
+      <p2 x="2220" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="1580"/>
+      <p2 x="1240" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="3180" y="940"/>
+      <p2 x="3620" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="940"/>
+      <p2 x="1300" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="940"/>
+      <p2 x="1740" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="940"/>
+      <p2 x="2280" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="940"/>
+      <p2 x="2720" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="1960" y="2220"/>
+      <p2 x="3120" y="2220"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="180"/>
+      <p2 x="1720" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="180"/>
+      <p2 x="1640" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="180"/>
+      <p2 x="2700" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="180"/>
+      <p2 x="2620" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="2620" y="180"/>
+      <p2 x="2640" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="180"/>
+      <p2 x="1660" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="1460"/>
+      <p2 x="1400" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="1460"/>
+      <p2 x="2380" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="-440"/>
+      <p2 x="1320" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="-440"/>
+      <p2 x="1260" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="-440"/>
+      <p2 x="1540" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="-440"/>
+      <p2 x="1480" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="-440"/>
+      <p2 x="2300" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="-440"/>
+      <p2 x="2240" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="-440"/>
+      <p2 x="2520" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="-440"/>
+      <p2 x="2460" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="1080"/>
+      <p2 x="1720" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="2620" y="1080"/>
+      <p2 x="2700" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="1720"/>
+      <p2 x="1300" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="1720"/>
+      <p2 x="1740" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="1720"/>
+      <p2 x="2280" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="1720"/>
+      <p2 x="2720" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="-700"/>
+      <p2 x="1340" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="-700"/>
+      <p2 x="1560" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="-700"/>
+      <p2 x="1460" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="-700"/>
+      <p2 x="2320" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="-700"/>
+      <p2 x="2540" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="2380" y="-700"/>
+      <p2 x="2440" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-700"/>
+      <p2 x="2580" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-700"/>
+      <p2 x="1600" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-700"/>
+      <p2 x="2360" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-700"/>
+      <p2 x="1380" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="700"/>
+      <p2 x="1800" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="2360" y="700"/>
+      <p2 x="2780" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="-320"/>
+      <p2 x="1300" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="-320"/>
+      <p2 x="1520" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="-320"/>
+      <p2 x="2280" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="-320"/>
+      <p2 x="2500" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="-320"/>
+      <p2 x="2300" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="-320"/>
+      <p2 x="1320" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="-320"/>
+      <p2 x="2520" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="-320"/>
+      <p2 x="1540" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-960"/>
+      <p2 x="1060" y="-960"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="320"/>
+      <p2 x="1340" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="320"/>
+      <p2 x="1560" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="320"/>
+      <p2 x="1700" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="320"/>
+      <p2 x="2320" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="320"/>
+      <p2 x="2540" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="320"/>
+      <p2 x="2680" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="3180" y="960"/>
+      <p2 x="3380" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="3400" y="960"/>
+      <p2 x="3640" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="960"/>
+      <p2 x="1720" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="960"/>
+      <p2 x="1640" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="960"/>
+      <p2 x="2700" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="960"/>
+      <p2 x="2620" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="2620" y="960"/>
+      <p2 x="2640" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="960"/>
+      <p2 x="1660" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="1940" y="2240"/>
+      <p2 x="3120" y="2240"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="-580"/>
+      <p2 x="1320" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="-580"/>
+      <p2 x="1540" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="-580"/>
+      <p2 x="1960" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="-580"/>
+      <p2 x="2300" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="-580"/>
+      <p2 x="2520" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="-580"/>
+      <p2 x="3060" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="1860"/>
+      <p2 x="1720" y="1860"/>
+    </wire>
+    <wire>
+      <p1 x="2620" y="1860"/>
+      <p2 x="2700" y="1860"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="200"/>
+      <p2 x="1320" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="200"/>
+      <p2 x="1540" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="200"/>
+      <p2 x="1940" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="200"/>
+      <p2 x="2300" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="200"/>
+      <p2 x="2520" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="200"/>
+      <p2 x="3040" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="1480"/>
+      <p2 x="1800" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2360" y="1480"/>
+      <p2 x="2780" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="-460"/>
+      <p2 x="1340" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="-460"/>
+      <p2 x="1560" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="-460"/>
+      <p2 x="1700" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="-460"/>
+      <p2 x="2320" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="-460"/>
+      <p2 x="2540" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="-460"/>
+      <p2 x="2680" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1100"/>
+      <p2 x="1340" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1100"/>
+      <p2 x="1560" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="1100"/>
+      <p2 x="1700" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="1100"/>
+      <p2 x="2320" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1100"/>
+      <p2 x="2540" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="1100"/>
+      <p2 x="2680" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="1740"/>
+      <p2 x="1720" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="1740"/>
+      <p2 x="1640" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="1740"/>
+      <p2 x="2700" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="1740"/>
+      <p2 x="2620" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="2620" y="1740"/>
+      <p2 x="2640" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="1740"/>
+      <p2 x="1660" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="460"/>
+      <p2 x="1300" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="460"/>
+      <p2 x="1520" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="460"/>
+      <p2 x="2280" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="460"/>
+      <p2 x="2500" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="460"/>
+      <p2 x="2520" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="460"/>
+      <p2 x="1540" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="460"/>
+      <p2 x="2300" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="460"/>
+      <p2 x="1320" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="-80"/>
+      <p2 x="1800" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="2360" y="-80"/>
+      <p2 x="2780" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="80"/>
+      <p2 x="1340" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="80"/>
+      <p2 x="1560" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="80"/>
+      <p2 x="1460" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="80"/>
+      <p2 x="2320" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="80"/>
+      <p2 x="2540" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="2380" y="80"/>
+      <p2 x="2440" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="80"/>
+      <p2 x="2360" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="80"/>
+      <p2 x="1380" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="80"/>
+      <p2 x="2580" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="80"/>
+      <p2 x="1600" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-980"/>
+      <p2 x="1080" y="-980"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="340"/>
+      <p2 x="1320" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="340"/>
+      <p2 x="1260" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="340"/>
+      <p2 x="1540" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="340"/>
+      <p2 x="1480" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="340"/>
+      <p2 x="2300" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="340"/>
+      <p2 x="2240" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="340"/>
+      <p2 x="2520" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="340"/>
+      <p2 x="2460" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="980"/>
+      <p2 x="1320" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="980"/>
+      <p2 x="1540" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="980"/>
+      <p2 x="1920" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="980"/>
+      <p2 x="2300" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="980"/>
+      <p2 x="2520" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="980"/>
+      <p2 x="3020" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="1920" y="2260"/>
+      <p2 x="3120" y="2260"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="-600"/>
+      <p2 x="1720" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="-600"/>
+      <p2 x="1640" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="-600"/>
+      <p2 x="2700" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="-600"/>
+      <p2 x="2620" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="2620" y="-600"/>
+      <p2 x="2640" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="-600"/>
+      <p2 x="1660" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1880"/>
+      <p2 x="1340" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1880"/>
+      <p2 x="1560" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="1880"/>
+      <p2 x="1700" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="1880"/>
+      <p2 x="2320" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1880"/>
+      <p2 x="2540" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="1880"/>
+      <p2 x="2680" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="1240"/>
+      <p2 x="1300" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="1240"/>
+      <p2 x="1520" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="1240"/>
+      <p2 x="2280" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1240"/>
+      <p2 x="2500" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1240"/>
+      <p2 x="2300" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1240"/>
+      <p2 x="1320" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="1240"/>
+      <p2 x="2520" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1240"/>
+      <p2 x="1540" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="-860"/>
+      <p2 x="1800" y="-860"/>
+    </wire>
+    <wire>
+      <p1 x="2360" y="-860"/>
+      <p2 x="2780" y="-860"/>
+    </wire>
+    <wire>
+      <p1 x="3060" y="2140"/>
+      <p2 x="3120" y="2140"/>
+    </wire>
+    <wire>
+      <p1 x="3140" y="2140"/>
+      <p2 x="3160" y="2140"/>
+    </wire>
+    <wire>
+      <p1 x="3160" y="2140"/>
+      <p2 x="3180" y="2140"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="860"/>
+      <p2 x="1340" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="860"/>
+      <p2 x="1560" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="860"/>
+      <p2 x="1460" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="860"/>
+      <p2 x="2320" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="860"/>
+      <p2 x="2540" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="2380" y="860"/>
+      <p2 x="2440" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="860"/>
+      <p2 x="1600" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="860"/>
+      <p2 x="2360" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="860"/>
+      <p2 x="1380" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="860"/>
+      <p2 x="2580" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="-480"/>
+      <p2 x="1720" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="2620" y="-480"/>
+      <p2 x="2700" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1120"/>
+      <p2 x="1320" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="1120"/>
+      <p2 x="1260" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1120"/>
+      <p2 x="1540" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="1120"/>
+      <p2 x="1480" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1120"/>
+      <p2 x="2300" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="1120"/>
+      <p2 x="2240" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="1120"/>
+      <p2 x="2520" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1120"/>
+      <p2 x="2460" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1760"/>
+      <p2 x="1320" y="1760"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1760"/>
+      <p2 x="1540" y="1760"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="1760"/>
+      <p2 x="1900" y="1760"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1760"/>
+      <p2 x="2300" y="1760"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="1760"/>
+      <p2 x="2520" y="1760"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="1760"/>
+      <p2 x="3000" y="1760"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="-100"/>
+      <p2 x="1400" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="-100"/>
+      <p2 x="2380" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="2020"/>
+      <p2 x="1300" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="2020"/>
+      <p2 x="1520" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="2020"/>
+      <p2 x="2280" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="2020"/>
+      <p2 x="2500" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="2020"/>
+      <p2 x="2300" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="2020"/>
+      <p2 x="1320" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="2020"/>
+      <p2 x="2520" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="2020"/>
+      <p2 x="1540" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-1000"/>
+      <p2 x="2020" y="-1000"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="360"/>
+      <p2 x="1720" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="360"/>
+      <p2 x="2700" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1640"/>
+      <p2 x="1340" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1640"/>
+      <p2 x="1560" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="1640"/>
+      <p2 x="1460" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="1640"/>
+      <p2 x="2320" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1640"/>
+      <p2 x="2540" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="2380" y="1640"/>
+      <p2 x="2440" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1640"/>
+      <p2 x="1380" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1640"/>
+      <p2 x="2580" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1640"/>
+      <p2 x="1600" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1640"/>
+      <p2 x="2360" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="1900" y="2280"/>
+      <p2 x="3120" y="2280"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="-620"/>
+      <p2 x="1300" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="-620"/>
+      <p2 x="1740" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="-620"/>
+      <p2 x="2280" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="-620"/>
+      <p2 x="2720" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1900"/>
+      <p2 x="1320" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="1900"/>
+      <p2 x="1260" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1900"/>
+      <p2 x="1540" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="1900"/>
+      <p2 x="1480" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1900"/>
+      <p2 x="2300" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="1900"/>
+      <p2 x="2240" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="1900"/>
+      <p2 x="2520" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1900"/>
+      <p2 x="2460" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="-880"/>
+      <p2 x="1400" y="-880"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="-880"/>
+      <p2 x="2380" y="-880"/>
+    </wire>
+    <wire>
+      <p1 x="3040" y="2160"/>
+      <p2 x="3120" y="2160"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="240"/>
+      <p2 x="1740" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="240"/>
+      <p2 x="2720" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="240"/>
+      <p2 x="2780" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="240"/>
+      <p2 x="1800" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="1140"/>
+      <p2 x="1720" y="1140"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="1140"/>
+      <p2 x="2700" y="1140"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="-760"/>
+      <p2 x="1320" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="-760"/>
+      <p2 x="1540" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="-760"/>
+      <p2 x="1480" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="-760"/>
+      <p2 x="2300" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="-760"/>
+      <p2 x="2520" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="-760"/>
+      <p2 x="2460" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="2080" y="-760"/>
+      <p2 x="2180" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="-760"/>
+      <p2 x="1200" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="-760"/>
+      <p2 x="2240" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="-760"/>
+      <p2 x="1260" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="-760"/>
+      <p2 x="2220" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="-760"/>
+      <p2 x="1240" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="-380"/>
+      <p2 x="1200" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="-380"/>
+      <p2 x="1340" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="-380"/>
+      <p2 x="1560" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2100" y="-380"/>
+      <p2 x="2180" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="-380"/>
+      <p2 x="2320" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="-380"/>
+      <p2 x="2540" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-380"/>
+      <p2 x="1460" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-380"/>
+      <p2 x="2580" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-380"/>
+      <p2 x="1600" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="-380"/>
+      <p2 x="2220" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-380"/>
+      <p2 x="2440" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="-380"/>
+      <p2 x="1240" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-1020"/>
+      <p2 x="2040" y="-1020"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="2300"/>
+      <p2 x="1080" y="2300"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="2300"/>
+      <p2 x="2100" y="2300"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="1020"/>
+      <p2 x="1740" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="1020"/>
+      <p2 x="2720" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1020"/>
+      <p2 x="2780" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="1020"/>
+      <p2 x="1800" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="-640"/>
+      <p2 x="1320" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="-640"/>
+      <p2 x="1520" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="-640"/>
+      <p2 x="2300" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="-640"/>
+      <p2 x="2500" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="-640"/>
+      <p2 x="2520" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="-640"/>
+      <p2 x="1540" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="1920" y="980"/>
+      <p2 x="1920" y="2260"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="-720"/>
+      <p2 x="1280" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="-780"/>
+      <p2 x="1280" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="-400"/>
+      <p2 x="1280" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="-460"/>
+      <p2 x="1280" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="60"/>
+      <p2 x="1280" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="0"/>
+      <p2 x="1280" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="380"/>
+      <p2 x="1280" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="320"/>
+      <p2 x="1280" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="840"/>
+      <p2 x="1280" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="780"/>
+      <p2 x="1280" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1160"/>
+      <p2 x="1280" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1100"/>
+      <p2 x="1280" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1620"/>
+      <p2 x="1280" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1560"/>
+      <p2 x="1280" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1940"/>
+      <p2 x="1280" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="1880"/>
+      <p2 x="1280" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="-880"/>
+      <p2 x="2180" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="-620"/>
+      <p2 x="2180" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="-100"/>
+      <p2 x="2180" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="160"/>
+      <p2 x="2180" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="680"/>
+      <p2 x="2180" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="940"/>
+      <p2 x="2180" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="1460"/>
+      <p2 x="2180" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="1720"/>
+      <p2 x="2180" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="20"/>
+      <p2 x="2180" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="-760"/>
+      <p2 x="2180" y="-720"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="1580"/>
+      <p2 x="2180" y="1620"/>
+    </wire>
+    <wire>
+      <p1 x="2180" y="800"/>
+      <p2 x="2180" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="-440"/>
+      <p2 x="2440" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="-760"/>
+      <p2 x="2440" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="340"/>
+      <p2 x="2440" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="20"/>
+      <p2 x="2440" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1120"/>
+      <p2 x="2440" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="800"/>
+      <p2 x="2440" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1900"/>
+      <p2 x="2440" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1580"/>
+      <p2 x="2440" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1180"/>
+      <p2 x="2440" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="-700"/>
+      <p2 x="2440" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="400"/>
+      <p2 x="2440" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1640"/>
+      <p2 x="2440" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="-380"/>
+      <p2 x="2440" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="860"/>
+      <p2 x="2440" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="1960"/>
+      <p2 x="2440" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="2440" y="80"/>
+      <p2 x="2440" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="2060" y="-1040"/>
+      <p2 x="2060" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="-940"/>
+      <p2 x="1040" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-640"/>
+      <p2 x="2320" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-700"/>
+      <p2 x="2320" y="-680"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-580"/>
+      <p2 x="2320" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-320"/>
+      <p2 x="2320" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-400"/>
+      <p2 x="2320" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-260"/>
+      <p2 x="2320" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-480"/>
+      <p2 x="2320" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-800"/>
+      <p2 x="2320" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="140"/>
+      <p2 x="2320" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="80"/>
+      <p2 x="2320" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="200"/>
+      <p2 x="2320" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="460"/>
+      <p2 x="2320" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="380"/>
+      <p2 x="2320" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="520"/>
+      <p2 x="2320" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="300"/>
+      <p2 x="2320" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-20"/>
+      <p2 x="2320" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="920"/>
+      <p2 x="2320" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="860"/>
+      <p2 x="2320" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="980"/>
+      <p2 x="2320" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1240"/>
+      <p2 x="2320" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1160"/>
+      <p2 x="2320" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1300"/>
+      <p2 x="2320" y="1320"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1080"/>
+      <p2 x="2320" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="760"/>
+      <p2 x="2320" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1700"/>
+      <p2 x="2320" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1640"/>
+      <p2 x="2320" y="1660"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1760"/>
+      <p2 x="2320" y="1780"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="2020"/>
+      <p2 x="2320" y="2040"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1940"/>
+      <p2 x="2320" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="2080"/>
+      <p2 x="2320" y="2100"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1860"/>
+      <p2 x="2320" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1540"/>
+      <p2 x="2320" y="1560"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1880"/>
+      <p2 x="2320" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1960"/>
+      <p2 x="2320" y="1980"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="0"/>
+      <p2 x="2320" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1100"/>
+      <p2 x="2320" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1180"/>
+      <p2 x="2320" y="1200"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-780"/>
+      <p2 x="2320" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="320"/>
+      <p2 x="2320" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="400"/>
+      <p2 x="2320" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="1560"/>
+      <p2 x="2320" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-460"/>
+      <p2 x="2320" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="-380"/>
+      <p2 x="2320" y="-360"/>
+    </wire>
+    <wire>
+      <p1 x="2320" y="780"/>
+      <p2 x="2320" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="-560"/>
+      <p2 x="1680" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="-620"/>
+      <p2 x="1680" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="220"/>
+      <p2 x="1680" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="160"/>
+      <p2 x="1680" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="1000"/>
+      <p2 x="1680" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="940"/>
+      <p2 x="1680" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="1780"/>
+      <p2 x="1680" y="1800"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="1720"/>
+      <p2 x="1680" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="-760"/>
+      <p2 x="1300" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="-440"/>
+      <p2 x="1300" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="20"/>
+      <p2 x="1300" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="340"/>
+      <p2 x="1300" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="800"/>
+      <p2 x="1300" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1120"/>
+      <p2 x="1300" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1580"/>
+      <p2 x="1300" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1900"/>
+      <p2 x="1300" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1720"/>
+      <p2 x="1300" y="1760"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="-320"/>
+      <p2 x="1300" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="940"/>
+      <p2 x="1300" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="2020"/>
+      <p2 x="1300" y="2080"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="160"/>
+      <p2 x="1300" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="1240"/>
+      <p2 x="1300" y="1300"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="-620"/>
+      <p2 x="1300" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="460"/>
+      <p2 x="1300" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="1940" y="200"/>
+      <p2 x="1940" y="2240"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="-460"/>
+      <p2 x="2580" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="-700"/>
+      <p2 x="2580" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="320"/>
+      <p2 x="2580" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="80"/>
+      <p2 x="2580" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="1100"/>
+      <p2 x="2580" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="860"/>
+      <p2 x="2580" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="1880"/>
+      <p2 x="2580" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2580" y="1640"/>
+      <p2 x="2580" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-320"/>
+      <p2 x="1560" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-400"/>
+      <p2 x="1560" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-260"/>
+      <p2 x="1560" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-480"/>
+      <p2 x="1560" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-640"/>
+      <p2 x="1560" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-720"/>
+      <p2 x="1560" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-580"/>
+      <p2 x="1560" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-800"/>
+      <p2 x="1560" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="460"/>
+      <p2 x="1560" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="380"/>
+      <p2 x="1560" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="520"/>
+      <p2 x="1560" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="300"/>
+      <p2 x="1560" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="140"/>
+      <p2 x="1560" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="60"/>
+      <p2 x="1560" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="200"/>
+      <p2 x="1560" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-20"/>
+      <p2 x="1560" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1240"/>
+      <p2 x="1560" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1160"/>
+      <p2 x="1560" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1300"/>
+      <p2 x="1560" y="1320"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1080"/>
+      <p2 x="1560" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="920"/>
+      <p2 x="1560" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="840"/>
+      <p2 x="1560" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="980"/>
+      <p2 x="1560" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="760"/>
+      <p2 x="1560" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="2020"/>
+      <p2 x="1560" y="2040"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1940"/>
+      <p2 x="1560" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="2080"/>
+      <p2 x="1560" y="2100"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1860"/>
+      <p2 x="1560" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1700"/>
+      <p2 x="1560" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1620"/>
+      <p2 x="1560" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1760"/>
+      <p2 x="1560" y="1780"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1540"/>
+      <p2 x="1560" y="1560"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1880"/>
+      <p2 x="1560" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="860"/>
+      <p2 x="1560" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1960"/>
+      <p2 x="1560" y="1980"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="0"/>
+      <p2 x="1560" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1100"/>
+      <p2 x="1560" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="80"/>
+      <p2 x="1560" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1180"/>
+      <p2 x="1560" y="1200"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-780"/>
+      <p2 x="1560" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="320"/>
+      <p2 x="1560" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-700"/>
+      <p2 x="1560" y="-680"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="400"/>
+      <p2 x="1560" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1560"/>
+      <p2 x="1560" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-460"/>
+      <p2 x="1560" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="1640"/>
+      <p2 x="1560" y="1660"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="-380"/>
+      <p2 x="1560" y="-360"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="780"/>
+      <p2 x="1560" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="-500"/>
+      <p2 x="1820" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="-820"/>
+      <p2 x="1820" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="-880"/>
+      <p2 x="1820" y="-860"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="280"/>
+      <p2 x="1820" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="-40"/>
+      <p2 x="1820" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="-100"/>
+      <p2 x="1820" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="1060"/>
+      <p2 x="1820" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="740"/>
+      <p2 x="1820" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="680"/>
+      <p2 x="1820" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="1840"/>
+      <p2 x="1820" y="1860"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="1520"/>
+      <p2 x="1820" y="1760"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="1460"/>
+      <p2 x="1820" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="980"/>
+      <p2 x="1820" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="200"/>
+      <p2 x="1820" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="-580"/>
+      <p2 x="1820" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="1760"/>
+      <p2 x="1820" y="1800"/>
+    </wire>
+    <wire>
+      <p1 x="2080" y="-1060"/>
+      <p2 x="2080" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="-480"/>
+      <p2 x="2720" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="-540"/>
+      <p2 x="2720" y="-520"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="-420"/>
+      <p2 x="2720" y="-400"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="-640"/>
+      <p2 x="2720" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="300"/>
+      <p2 x="2720" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="240"/>
+      <p2 x="2720" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="360"/>
+      <p2 x="2720" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="140"/>
+      <p2 x="2720" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1080"/>
+      <p2 x="2720" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1020"/>
+      <p2 x="2720" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1140"/>
+      <p2 x="2720" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="920"/>
+      <p2 x="2720" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1860"/>
+      <p2 x="2720" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1800"/>
+      <p2 x="2720" y="1820"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1920"/>
+      <p2 x="2720" y="1940"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1700"/>
+      <p2 x="2720" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="1720"/>
+      <p2 x="2720" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="940"/>
+      <p2 x="2720" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="160"/>
+      <p2 x="2720" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="2720" y="-620"/>
+      <p2 x="2720" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="-960"/>
+      <p2 x="1060" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="3620" y="920"/>
+      <p2 x="3620" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="-600"/>
+      <p2 x="1700" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="180"/>
+      <p2 x="1700" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="960"/>
+      <p2 x="1700" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="1740"/>
+      <p2 x="1700" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="-460"/>
+      <p2 x="1700" y="-420"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="1880"/>
+      <p2 x="1700" y="1920"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="1100"/>
+      <p2 x="1700" y="1140"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="320"/>
+      <p2 x="1700" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="1960" y="-580"/>
+      <p2 x="1960" y="2220"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="-760"/>
+      <p2 x="2220" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="-440"/>
+      <p2 x="2220" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="20"/>
+      <p2 x="2220" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="340"/>
+      <p2 x="2220" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="800"/>
+      <p2 x="2220" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="1120"/>
+      <p2 x="2220" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="1580"/>
+      <p2 x="2220" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="1900"/>
+      <p2 x="2220" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="1960"/>
+      <p2 x="2220" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="1180"/>
+      <p2 x="2220" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="400"/>
+      <p2 x="2220" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="-380"/>
+      <p2 x="2220" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="-400"/>
+      <p2 x="2480" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="-460"/>
+      <p2 x="2480" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="-720"/>
+      <p2 x="2480" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="-780"/>
+      <p2 x="2480" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="380"/>
+      <p2 x="2480" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="320"/>
+      <p2 x="2480" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="60"/>
+      <p2 x="2480" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="0"/>
+      <p2 x="2480" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1160"/>
+      <p2 x="2480" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1100"/>
+      <p2 x="2480" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="840"/>
+      <p2 x="2480" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="780"/>
+      <p2 x="2480" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1940"/>
+      <p2 x="2480" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1880"/>
+      <p2 x="2480" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1620"/>
+      <p2 x="2480" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="2480" y="1560"/>
+      <p2 x="2480" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="-880"/>
+      <p2 x="1200" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="-620"/>
+      <p2 x="1200" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="-100"/>
+      <p2 x="1200" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="160"/>
+      <p2 x="1200" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="680"/>
+      <p2 x="1200" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="940"/>
+      <p2 x="1200" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="1460"/>
+      <p2 x="1200" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="1720"/>
+      <p2 x="1200" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="800"/>
+      <p2 x="1200" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="20"/>
+      <p2 x="1200" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="-760"/>
+      <p2 x="1200" y="-720"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="1580"/>
+      <p2 x="1200" y="1620"/>
+    </wire>
+    <wire>
+      <p1 x="2100" y="-380"/>
+      <p2 x="2100" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2100" y="1960"/>
+      <p2 x="2100" y="2300"/>
+    </wire>
+    <wire>
+      <p1 x="2100" y="1180"/>
+      <p2 x="2100" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2100" y="400"/>
+      <p2 x="2100" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="-440"/>
+      <p2 x="1460" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="-760"/>
+      <p2 x="1460" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="340"/>
+      <p2 x="1460" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="20"/>
+      <p2 x="1460" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="1120"/>
+      <p2 x="1460" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="800"/>
+      <p2 x="1460" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="1900"/>
+      <p2 x="1460" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="1580"/>
+      <p2 x="1460" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="860"/>
+      <p2 x="1460" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="1960"/>
+      <p2 x="1460" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="80"/>
+      <p2 x="1460" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="1180"/>
+      <p2 x="1460" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="-700"/>
+      <p2 x="1460" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="400"/>
+      <p2 x="1460" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="1640"/>
+      <p2 x="1460" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="-380"/>
+      <p2 x="1460" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="3380" y="920"/>
+      <p2 x="3380" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="2360" y="-860"/>
+      <p2 x="2360" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="2360" y="-80"/>
+      <p2 x="2360" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="2360" y="700"/>
+      <p2 x="2360" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="2360" y="1480"/>
+      <p2 x="2360" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="-980"/>
+      <p2 x="1080" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="-380"/>
+      <p2 x="1080" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="400"/>
+      <p2 x="1080" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="1960"/>
+      <p2 x="1080" y="2300"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="1180"/>
+      <p2 x="1080" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="3000" y="1760"/>
+      <p2 x="3000" y="2200"/>
+    </wire>
+    <wire>
+      <p1 x="3640" y="920"/>
+      <p2 x="3640" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-640"/>
+      <p2 x="1340" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-700"/>
+      <p2 x="1340" y="-680"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-580"/>
+      <p2 x="1340" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-320"/>
+      <p2 x="1340" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-400"/>
+      <p2 x="1340" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-260"/>
+      <p2 x="1340" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-480"/>
+      <p2 x="1340" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-800"/>
+      <p2 x="1340" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="140"/>
+      <p2 x="1340" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="80"/>
+      <p2 x="1340" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="200"/>
+      <p2 x="1340" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="460"/>
+      <p2 x="1340" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="380"/>
+      <p2 x="1340" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="520"/>
+      <p2 x="1340" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="300"/>
+      <p2 x="1340" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-20"/>
+      <p2 x="1340" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="920"/>
+      <p2 x="1340" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="860"/>
+      <p2 x="1340" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="980"/>
+      <p2 x="1340" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1240"/>
+      <p2 x="1340" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1160"/>
+      <p2 x="1340" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1300"/>
+      <p2 x="1340" y="1320"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1080"/>
+      <p2 x="1340" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="760"/>
+      <p2 x="1340" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1700"/>
+      <p2 x="1340" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1640"/>
+      <p2 x="1340" y="1660"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1760"/>
+      <p2 x="1340" y="1780"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="2020"/>
+      <p2 x="1340" y="2040"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1940"/>
+      <p2 x="1340" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="2080"/>
+      <p2 x="1340" y="2100"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1860"/>
+      <p2 x="1340" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1540"/>
+      <p2 x="1340" y="1560"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1560"/>
+      <p2 x="1340" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-460"/>
+      <p2 x="1340" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-380"/>
+      <p2 x="1340" y="-360"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="780"/>
+      <p2 x="1340" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1880"/>
+      <p2 x="1340" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1960"/>
+      <p2 x="1340" y="1980"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="0"/>
+      <p2 x="1340" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1100"/>
+      <p2 x="1340" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="1180"/>
+      <p2 x="1340" y="1200"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-780"/>
+      <p2 x="1340" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="320"/>
+      <p2 x="1340" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="400"/>
+      <p2 x="1340" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="2620" y="-600"/>
+      <p2 x="2620" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="2620" y="180"/>
+      <p2 x="2620" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="2620" y="960"/>
+      <p2 x="2620" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="2620" y="1740"/>
+      <p2 x="2620" y="1860"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="-460"/>
+      <p2 x="1600" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="-700"/>
+      <p2 x="1600" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="320"/>
+      <p2 x="1600" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="80"/>
+      <p2 x="1600" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="1100"/>
+      <p2 x="1600" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="860"/>
+      <p2 x="1600" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="1880"/>
+      <p2 x="1600" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="1640"/>
+      <p2 x="1600" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="-440"/>
+      <p2 x="2500" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="-760"/>
+      <p2 x="2500" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="340"/>
+      <p2 x="2500" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="20"/>
+      <p2 x="2500" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="1120"/>
+      <p2 x="2500" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="800"/>
+      <p2 x="2500" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="1900"/>
+      <p2 x="2500" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="1580"/>
+      <p2 x="2500" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="-640"/>
+      <p2 x="2500" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="460"/>
+      <p2 x="2500" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="1700"/>
+      <p2 x="2500" y="1760"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="-320"/>
+      <p2 x="2500" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="920"/>
+      <p2 x="2500" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="2020"/>
+      <p2 x="2500" y="2080"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="140"/>
+      <p2 x="2500" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="2500" y="1240"/>
+      <p2 x="2500" y="1300"/>
+    </wire>
+    <wire>
+      <p1 x="3400" y="920"/>
+      <p2 x="3400" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="2380" y="-880"/>
+      <p2 x="2380" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="2380" y="-100"/>
+      <p2 x="2380" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="2380" y="680"/>
+      <p2 x="2380" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="2380" y="1460"/>
+      <p2 x="2380" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="3020" y="980"/>
+      <p2 x="3020" y="2180"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="-480"/>
+      <p2 x="1740" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="-540"/>
+      <p2 x="1740" y="-520"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="-420"/>
+      <p2 x="1740" y="-400"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="-640"/>
+      <p2 x="1740" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="300"/>
+      <p2 x="1740" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="240"/>
+      <p2 x="1740" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="360"/>
+      <p2 x="1740" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="140"/>
+      <p2 x="1740" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="1080"/>
+      <p2 x="1740" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="1020"/>
+      <p2 x="1740" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="1140"/>
+      <p2 x="1740" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="920"/>
+      <p2 x="1740" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="1860"/>
+      <p2 x="1740" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="1800"/>
+      <p2 x="1740" y="1820"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="1920"/>
+      <p2 x="1740" y="1940"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="1700"/>
+      <p2 x="1740" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="-620"/>
+      <p2 x="1740" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="1720"/>
+      <p2 x="1740" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="940"/>
+      <p2 x="1740" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="160"/>
+      <p2 x="1740" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="-720"/>
+      <p2 x="2260" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="-780"/>
+      <p2 x="2260" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="-400"/>
+      <p2 x="2260" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="-460"/>
+      <p2 x="2260" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="60"/>
+      <p2 x="2260" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="0"/>
+      <p2 x="2260" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="380"/>
+      <p2 x="2260" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="320"/>
+      <p2 x="2260" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="840"/>
+      <p2 x="2260" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="780"/>
+      <p2 x="2260" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="1160"/>
+      <p2 x="2260" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="1100"/>
+      <p2 x="2260" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="1620"/>
+      <p2 x="2260" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="1560"/>
+      <p2 x="2260" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="1940"/>
+      <p2 x="2260" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2260" y="1880"/>
+      <p2 x="2260" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="-760"/>
+      <p2 x="1240" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="-440"/>
+      <p2 x="1240" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="20"/>
+      <p2 x="1240" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="340"/>
+      <p2 x="1240" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="800"/>
+      <p2 x="1240" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="1120"/>
+      <p2 x="1240" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="1580"/>
+      <p2 x="1240" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="1900"/>
+      <p2 x="1240" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="-380"/>
+      <p2 x="1240" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="1960"/>
+      <p2 x="1240" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="1180"/>
+      <p2 x="1240" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="400"/>
+      <p2 x="1240" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="3160" y="940"/>
+      <p2 x="3160" y="2140"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="-400"/>
+      <p2 x="1500" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="-460"/>
+      <p2 x="1500" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="-720"/>
+      <p2 x="1500" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="-780"/>
+      <p2 x="1500" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="380"/>
+      <p2 x="1500" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="320"/>
+      <p2 x="1500" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="60"/>
+      <p2 x="1500" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="0"/>
+      <p2 x="1500" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1160"/>
+      <p2 x="1500" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1100"/>
+      <p2 x="1500" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="840"/>
+      <p2 x="1500" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="780"/>
+      <p2 x="1500" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1940"/>
+      <p2 x="1500" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1880"/>
+      <p2 x="1500" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1620"/>
+      <p2 x="1500" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1560"/>
+      <p2 x="1500" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="3040" y="200"/>
+      <p2 x="3040" y="2160"/>
+    </wire>
+    <wire>
+      <p1 x="2020" y="-1000"/>
+      <p2 x="2020" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="-860"/>
+      <p2 x="1380" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="-80"/>
+      <p2 x="1380" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="700"/>
+      <p2 x="1380" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="1480"/>
+      <p2 x="1380" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="-560"/>
+      <p2 x="2660" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="-620"/>
+      <p2 x="2660" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="220"/>
+      <p2 x="2660" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="160"/>
+      <p2 x="2660" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="1000"/>
+      <p2 x="2660" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="940"/>
+      <p2 x="2660" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="1780"/>
+      <p2 x="2660" y="1800"/>
+    </wire>
+    <wire>
+      <p1 x="2660" y="1720"/>
+      <p2 x="2660" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="-760"/>
+      <p2 x="2280" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="-440"/>
+      <p2 x="2280" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="20"/>
+      <p2 x="2280" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="340"/>
+      <p2 x="2280" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="800"/>
+      <p2 x="2280" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1120"/>
+      <p2 x="2280" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1580"/>
+      <p2 x="2280" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1900"/>
+      <p2 x="2280" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="160"/>
+      <p2 x="2280" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1240"/>
+      <p2 x="2280" y="1300"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="-620"/>
+      <p2 x="2280" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="460"/>
+      <p2 x="2280" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="1720"/>
+      <p2 x="2280" y="1760"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="-320"/>
+      <p2 x="2280" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="940"/>
+      <p2 x="2280" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="2280" y="2020"/>
+      <p2 x="2280" y="2080"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="-600"/>
+      <p2 x="1640" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="180"/>
+      <p2 x="1640" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="960"/>
+      <p2 x="1640" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="1740"/>
+      <p2 x="1640" y="1860"/>
+    </wire>
+    <wire>
+      <p1 x="1900" y="1760"/>
+      <p2 x="1900" y="2280"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-320"/>
+      <p2 x="2540" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-400"/>
+      <p2 x="2540" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-260"/>
+      <p2 x="2540" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-480"/>
+      <p2 x="2540" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-640"/>
+      <p2 x="2540" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-720"/>
+      <p2 x="2540" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-580"/>
+      <p2 x="2540" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-800"/>
+      <p2 x="2540" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="460"/>
+      <p2 x="2540" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="380"/>
+      <p2 x="2540" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="520"/>
+      <p2 x="2540" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="300"/>
+      <p2 x="2540" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="140"/>
+      <p2 x="2540" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="60"/>
+      <p2 x="2540" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="200"/>
+      <p2 x="2540" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-20"/>
+      <p2 x="2540" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1240"/>
+      <p2 x="2540" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1160"/>
+      <p2 x="2540" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1300"/>
+      <p2 x="2540" y="1320"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1080"/>
+      <p2 x="2540" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="920"/>
+      <p2 x="2540" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="840"/>
+      <p2 x="2540" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="980"/>
+      <p2 x="2540" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="760"/>
+      <p2 x="2540" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="2020"/>
+      <p2 x="2540" y="2040"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1940"/>
+      <p2 x="2540" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="2080"/>
+      <p2 x="2540" y="2100"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1860"/>
+      <p2 x="2540" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1700"/>
+      <p2 x="2540" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1620"/>
+      <p2 x="2540" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1760"/>
+      <p2 x="2540" y="1780"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1540"/>
+      <p2 x="2540" y="1560"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1180"/>
+      <p2 x="2540" y="1200"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-780"/>
+      <p2 x="2540" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="320"/>
+      <p2 x="2540" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-700"/>
+      <p2 x="2540" y="-680"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="400"/>
+      <p2 x="2540" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1560"/>
+      <p2 x="2540" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-460"/>
+      <p2 x="2540" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1640"/>
+      <p2 x="2540" y="1660"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="-380"/>
+      <p2 x="2540" y="-360"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="780"/>
+      <p2 x="2540" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1880"/>
+      <p2 x="2540" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="860"/>
+      <p2 x="2540" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1960"/>
+      <p2 x="2540" y="1980"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="0"/>
+      <p2 x="2540" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="1100"/>
+      <p2 x="2540" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="2540" y="80"/>
+      <p2 x="2540" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="-440"/>
+      <p2 x="1520" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="-760"/>
+      <p2 x="1520" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="340"/>
+      <p2 x="1520" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="20"/>
+      <p2 x="1520" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1120"/>
+      <p2 x="1520" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="800"/>
+      <p2 x="1520" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1900"/>
+      <p2 x="1520" y="2020"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1580"/>
+      <p2 x="1520" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="140"/>
+      <p2 x="1520" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1240"/>
+      <p2 x="1520" y="1300"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="-640"/>
+      <p2 x="1520" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="460"/>
+      <p2 x="1520" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1700"/>
+      <p2 x="1520" y="1760"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="-320"/>
+      <p2 x="1520" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="920"/>
+      <p2 x="1520" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="2020"/>
+      <p2 x="1520" y="2080"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="-500"/>
+      <p2 x="2800" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="-820"/>
+      <p2 x="2800" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="-880"/>
+      <p2 x="2800" y="-860"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="280"/>
+      <p2 x="2800" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="-40"/>
+      <p2 x="2800" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="-100"/>
+      <p2 x="2800" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="1060"/>
+      <p2 x="2800" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="740"/>
+      <p2 x="2800" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="680"/>
+      <p2 x="2800" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="1840"/>
+      <p2 x="2800" y="1860"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="1520"/>
+      <p2 x="2800" y="1760"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="1460"/>
+      <p2 x="2800" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="-580"/>
+      <p2 x="2800" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="1760"/>
+      <p2 x="2800" y="1800"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="980"/>
+      <p2 x="2800" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="2800" y="200"/>
+      <p2 x="2800" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="3060" y="-580"/>
+      <p2 x="3060" y="2140"/>
+    </wire>
+    <wire>
+      <p1 x="2040" y="-1020"/>
+      <p2 x="2040" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="-880"/>
+      <p2 x="1400" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="-100"/>
+      <p2 x="1400" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="680"/>
+      <p2 x="1400" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="1460"/>
+      <p2 x="1400" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="-600"/>
+      <p2 x="2680" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="180"/>
+      <p2 x="2680" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="960"/>
+      <p2 x="2680" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="1740"/>
+      <p2 x="2680" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="1100"/>
+      <p2 x="2680" y="1140"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="320"/>
+      <p2 x="2680" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="-460"/>
+      <p2 x="2680" y="-420"/>
+    </wire>
+    <wire>
+      <p1 x="2680" y="1880"/>
+      <p2 x="2680" y="1920"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="-920"/>
+      <p2 x="1020" y="1580"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
