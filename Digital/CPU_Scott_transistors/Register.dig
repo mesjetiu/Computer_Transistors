@@ -3846,7 +3846,7 @@
           <string>e</string>
         </entry>
       </elementAttributes>
-      <pos x="440" y="1940"/>
+      <pos x="360" y="1940"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -7211,6 +7211,39 @@
       </elementAttributes>
       <pos x="-1720" y="-1460"/>
     </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Size</string>
+          <int>10</int>
+        </entry>
+      </elementAttributes>
+      <pos x="40" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Size</string>
+          <int>10</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>102</red>
+            <green>204</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="1180"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -7324,6 +7357,10 @@
     <wire>
       <p1 x="-1880" y="1800"/>
       <p2 x="-1480" y="1800"/>
+    </wire>
+    <wire>
+      <p1 x="-740" y="1800"/>
+      <p2 x="0" y="1800"/>
     </wire>
     <wire>
       <p1 x="-1480" y="1800"/>
@@ -9158,6 +9195,10 @@
       <p2 x="-520" y="1180"/>
     </wire>
     <wire>
+      <p1 x="340" y="1180"/>
+      <p2 x="520" y="1180"/>
+    </wire>
+    <wire>
       <p1 x="-320" y="1180"/>
       <p2 x="-260" y="1180"/>
     </wire>
@@ -9770,6 +9811,10 @@
       <p2 x="-480" y="-720"/>
     </wire>
     <wire>
+      <p1 x="0" y="720"/>
+      <p2 x="40" y="720"/>
+    </wire>
+    <wire>
       <p1 x="-1320" y="-980"/>
       <p2 x="-1260" y="-980"/>
     </wire>
@@ -10298,6 +10343,10 @@
       <p2 x="1280" y="1880"/>
     </wire>
     <wire>
+      <p1 x="0" y="720"/>
+      <p2 x="0" y="1800"/>
+    </wire>
+    <wire>
       <p1 x="-1540" y="-1000"/>
       <p2 x="-1540" y="1260"/>
     </wire>
@@ -10615,6 +10664,10 @@
     </wire>
     <wire>
       <p1 x="520" y="860"/>
+      <p2 x="520" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="1180"/>
       <p2 x="520" y="1640"/>
     </wire>
     <wire>
