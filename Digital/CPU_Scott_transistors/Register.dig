@@ -96,7 +96,7 @@
         </entry>
         <entry>
           <string>RectHeight</string>
-          <int>159</int>
+          <int>158</int>
         </entry>
         <entry>
           <string>RectInside</string>
@@ -111,7 +111,7 @@
           <int>98</int>
         </entry>
       </elementAttributes>
-      <pos x="360" y="-1380"/>
+      <pos x="360" y="-1360"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -205,7 +205,7 @@
           <intFormat>bin</intFormat>
         </entry>
       </elementAttributes>
-      <pos x="-40" y="1660"/>
+      <pos x="-40" y="1640"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -3474,7 +3474,7 @@
         </entry>
         <entry>
           <string>RectHeight</string>
-          <int>161</int>
+          <int>160</int>
         </entry>
         <entry>
           <string>RectInside</string>
@@ -3489,7 +3489,7 @@
           <int>202</int>
         </entry>
       </elementAttributes>
-      <pos x="-1700" y="-1400"/>
+      <pos x="-1700" y="-1380"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -8839,6 +8839,14 @@
       <p2 x="-100" y="1640"/>
     </wire>
     <wire>
+      <p1 x="-80" y="1640"/>
+      <p2 x="-60" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="1640"/>
+      <p2 x="-40" y="1640"/>
+    </wire>
+    <wire>
       <p1 x="-360" y="1640"/>
       <p2 x="-340" y="1640"/>
     </wire>
@@ -9071,10 +9079,6 @@
       <p2 x="2080" y="-380"/>
     </wire>
     <wire>
-      <p1 x="-80" y="1660"/>
-      <p2 x="-60" y="1660"/>
-    </wire>
-    <wire>
       <p1 x="2160" y="1660"/>
       <p2 x="2260" y="1660"/>
     </wire>
@@ -9089,10 +9093,6 @@
     <wire>
       <p1 x="-180" y="1660"/>
       <p2 x="-100" y="1660"/>
-    </wire>
-    <wire>
-      <p1 x="-60" y="1660"/>
-      <p2 x="-40" y="1660"/>
     </wire>
     <wire>
       <p1 x="-1300" y="1660"/>
@@ -11748,7 +11748,7 @@
     </wire>
     <wire>
       <p1 x="-60" y="540"/>
-      <p2 x="-60" y="1660"/>
+      <p2 x="-60" y="1640"/>
     </wire>
     <wire>
       <p1 x="1340" y="-1220"/>
