@@ -409,6 +409,11 @@
       </elementAttributes>
       <pos x="-481" y="60"/>
     </visualElement>
+    <visualElement>
+      <elementName>PullDown</elementName>
+      <elementAttributes/>
+      <pos x="240" y="500"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -420,12 +425,12 @@
       <p2 x="-40" y="320"/>
     </wire>
     <wire>
-      <p1 x="-40" y="320"/>
-      <p2 x="80" y="320"/>
-    </wire>
-    <wire>
       <p1 x="-320" y="320"/>
       <p2 x="-200" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="320"/>
+      <p2 x="80" y="320"/>
     </wire>
     <wire>
       <p1 x="0" y="640"/>
@@ -434,10 +439,6 @@
     <wire>
       <p1 x="-280" y="640"/>
       <p2 x="-180" y="640"/>
-    </wire>
-    <wire>
-      <p1 x="100" y="640"/>
-      <p2 x="140" y="640"/>
     </wire>
     <wire>
       <p1 x="-180" y="640"/>
@@ -450,6 +451,10 @@
     <wire>
       <p1 x="140" y="640"/>
       <p2 x="180" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="640"/>
+      <p2 x="140" y="640"/>
     </wire>
     <wire>
       <p1 x="-480" y="560"/>
@@ -517,6 +522,10 @@
     </wire>
     <wire>
       <p1 x="200" y="440"/>
+      <p2 x="240" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="440"/>
       <p2 x="280" y="440"/>
     </wire>
     <wire>
@@ -576,12 +585,12 @@
       <p2 x="40" y="380"/>
     </wire>
     <wire>
-      <p1 x="-240" y="380"/>
-      <p2 x="-200" y="380"/>
-    </wire>
-    <wire>
       <p1 x="40" y="380"/>
       <p2 x="80" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="380"/>
+      <p2 x="-200" y="380"/>
     </wire>
     <wire>
       <p1 x="-80" y="460"/>
@@ -734,6 +743,10 @@
     <wire>
       <p1 x="-80" y="380"/>
       <p2 x="-80" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="440"/>
+      <p2 x="240" y="500"/>
     </wire>
     <wire>
       <p1 x="-180" y="700"/>
